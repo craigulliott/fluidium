@@ -167,6 +167,10 @@ NSString *const kFUPlugInDrawerContentSizeStringKey = @"FUPlugInDrawerContentSiz
 		return uri;
 	}
 	NSString * path = [[NSBundle mainBundle] pathForResource:uri ofType:@"html"];
+	if(path == nil)
+	{
+		path = [[NSBundle mainBundle] pathForResource:uri ofType:@"html" inDirectory:@"js-built"];
+	}
 	return [[NSURL fileURLWithPath:path] absoluteString];
 }
 - (void)setHomeURLString:(NSString *)s {

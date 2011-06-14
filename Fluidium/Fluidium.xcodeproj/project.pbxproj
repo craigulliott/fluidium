@@ -6,81 +6,22 @@
 	objectVersion = 45;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		D33B1DBF1116AF6F00F754AD /* Custom Browser */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = D33B1DC41116AF9500F754AD /* Build configuration list for PBXAggregateTarget "Custom Browser" */;
-			buildPhases = (
-				D33B1DD81116B23E00F754AD /* Copy .app */,
-				D33B1DBE1116AF6F00F754AD /* Edit Info.plist */,
-				D33B1EDA1116C87600F754AD /* Edit DefaultValues.plist */,
-				D33B1F821117F2ED00F754AD /* Reveal In Finder */,
-			);
-			dependencies = (
-				D33B1DC31116AF7700F754AD /* PBXTargetDependency */,
-			);
-			name = "Custom Browser";
-			productName = "Custom Browser";
-		};
-		D38422EC1102D38B00605809 /* Fluidium PlugIns */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = D38423031102D3E300605809 /* Build configuration list for PBXAggregateTarget "Fluidium PlugIns" */;
-			buildPhases = (
-				D38422F91102D3BC00605809 /* Copy PlugIns */,
-			);
-			dependencies = (
-				D38422F01102D39200605809 /* PBXTargetDependency */,
-				D38422F21102D3A500605809 /* PBXTargetDependency */,
-				D38422F41102D3A500605809 /* PBXTargetDependency */,
-				D38422F61102D3A500605809 /* PBXTargetDependency */,
-			);
-			name = "Fluidium PlugIns";
-			productName = PlugIns;
-		};
-		D38423141102D50D00605809 /* Fluidium+PlugIns */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = D384231E1102D53F00605809 /* Build configuration list for PBXAggregateTarget "Fluidium+PlugIns" */;
-			buildPhases = (
-			);
-			dependencies = (
-				D384231A1102D51B00605809 /* PBXTargetDependency */,
-			);
-			name = "Fluidium+PlugIns";
-			productName = "Fluidium+PlugIns";
-		};
-		D3C2E4C811D7EEBE00106E86 /* Fake PlugIns */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = D3C2E4D211D7EEBE00106E86 /* Build configuration list for PBXAggregateTarget "Fake PlugIns" */;
-			buildPhases = (
-				D3C2E4D111D7EEBE00106E86 /* Copy PlugIns */,
-			);
-			dependencies = (
-				D3C2E4FE11D7EF9C00106E86 /* PBXTargetDependency */,
-				D3C2E4F011D7EF1900106E86 /* PBXTargetDependency */,
-				D309FCD911DFE32000C30AA8 /* PBXTargetDependency */,
-			);
-			name = "Fake PlugIns";
-			productName = PlugIns;
-		};
-		D3C2E4F511D7EF7A00106E86 /* Fake+PlugIns */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = D3C2E4F811D7EF7A00106E86 /* Build configuration list for PBXAggregateTarget "Fake+PlugIns" */;
-			buildPhases = (
-			);
-			dependencies = (
-				D3C2E4FC11D7EF9400106E86 /* PBXTargetDependency */,
-			);
-			name = "Fake+PlugIns";
-			productName = "Fluidium+PlugIns";
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		1DDD582C0DA1D0D100B32029 /* FUWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58280DA1D0D100B32029 /* FUWindow.xib */; };
 		1DDD582D0DA1D0D100B32029 /* FUMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* FUMainMenu.xib */; };
 		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
 		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
 		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		C52FC44213A2042A00A2D359 /* ParseKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = C52FC2D413A2029D00A2D359 /* ParseKit.framework */; };
+		C52FC44313A2043E00A2D359 /* ParseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52FC2D413A2029D00A2D359 /* ParseKit.framework */; };
+		C52FC44413A2045300A2D359 /* UMEKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = C52FC33113A2030B00A2D359 /* UMEKit.framework */; };
+		C52FC44513A2045300A2D359 /* TDAppKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = C52FC32213A2030100A2D359 /* TDAppKit.framework */; };
+		C52FC44613A2045300A2D359 /* PSMTabBarControl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = C52FC31A13A202F400A2D359 /* PSMTabBarControl.framework */; };
+		C52FC44713A2045800A2D359 /* UMEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52FC33113A2030B00A2D359 /* UMEKit.framework */; };
+		C52FC44813A2045800A2D359 /* TDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52FC32213A2030100A2D359 /* TDAppKit.framework */; };
+		C52FC44913A2045800A2D359 /* PSMTabBarControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52FC31A13A202F400A2D359 /* PSMTabBarControl.framework */; };
+		C5A895EB13A200B800EAC265 /* talkto-mac-icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C5A895EA13A200B800EAC265 /* talkto-mac-icon.icns */; };
+		C5A9001B13829D9F00FE5EDD /* js-built in Resources */ = {isa = PBXBuildFile; fileRef = C5A9FE6213829D9F00FE5EDD /* js-built */; };
 		D305193510C909E400AFF325 /* FUTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = D305193410C909E400AFF325 /* FUTabController.m */; };
 		D305199D10C978E300AFF325 /* NSString+FUAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D305199C10C978E300AFF325 /* NSString+FUAdditions.m */; };
 		D3051A1810C980A000AFF325 /* FUWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3051A1710C980A000AFF325 /* FUWebView.m */; };
@@ -94,9 +35,6 @@
 		D30BC47510E188840019816B /* FUJavaScriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = D30BC47410E188840019816B /* FUJavaScriptBridge.m */; };
 		D30BC4F910E1A2260019816B /* FUJavaScriptMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D30BC4F810E1A2260019816B /* FUJavaScriptMenuItem.m */; };
 		D30BC56B10E1AC0E0019816B /* FUJavaScriptGrowlNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = D30BC56A10E1AC0E0019816B /* FUJavaScriptGrowlNotification.m */; };
-		D30E6B1211FE5D220093695A /* FUJavaScriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = D30BC47410E188840019816B /* FUJavaScriptBridge.m */; };
-		D30E6B1311FE5D280093695A /* FUJavaScriptMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D30BC4F810E1A2260019816B /* FUJavaScriptMenuItem.m */; };
-		D30E6B1411FE5D2E0093695A /* FUJavaScriptGrowlNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = D30BC56A10E1AC0E0019816B /* FUJavaScriptGrowlNotification.m */; };
 		D3189D6C10F5A9F700B6AA21 /* FUWindowController+NSToolbarDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3189D6B10F5A9F700B6AA21 /* FUWindowController+NSToolbarDelegate.m */; };
 		D3189E8F10F6FFFA00B6AA21 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3189E8E10F6FFFA00B6AA21 /* Sparkle.framework */; };
 		D3189E9810F7000F00B6AA21 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D3189E8E10F6FFFA00B6AA21 /* Sparkle.framework */; };
@@ -105,19 +43,14 @@
 		D31C7B0611129A1900563A4D /* FUHandlerPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D31C7B0511129A1900563A4D /* FUHandlerPreferences.m */; };
 		D31C7B0A11129A5B00563A4D /* FUHandlerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D31C7B0911129A5B00563A4D /* FUHandlerController.m */; };
 		D31C7B2811129C0E00563A4D /* FUHandlerPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31C7B2611129C0E00563A4D /* FUHandlerPreferences.xib */; };
-		D31CC0D410EFCB990013347D /* TDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31CC0CA10EFCB590013347D /* TDAppKit.framework */; };
-		D31CC10B10EFCCE60013347D /* TDAppKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D31CC0CA10EFCB590013347D /* TDAppKit.framework */; };
-		D328007F10CC371E00BB363B /* PSMTabBarControl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D328FCA310CC339F00BB363B /* PSMTabBarControl.framework */; };
 		D32803F410CC7BFA00BB363B /* FUBookmarkController.m in Sources */ = {isa = PBXBuildFile; fileRef = D32803F310CC7BFA00BB363B /* FUBookmarkController.m */; };
 		D328FB1310CB9E2600BB363B /* FUBookmarkWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D328FB1110CB9E2600BB363B /* FUBookmarkWindow.xib */; };
-		D328FD5710CC33F500BB363B /* PSMTabBarControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D328FCA310CC339F00BB363B /* PSMTabBarControl.framework */; };
 		D332221310C8C19500151693 /* FUDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D332221210C8C19500151693 /* FUDocument.m */; };
 		D332221610C8C1A500151693 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D332221510C8C1A500151693 /* main.m */; };
 		D332222E10C8C2A100151693 /* FUWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D332222D10C8C2A100151693 /* FUWindowController.m */; };
 		D332223C10C8C34B00151693 /* FUWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D332223B10C8C34B00151693 /* FUWindow.m */; };
 		D332225110C8C3DB00151693 /* FUDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = D332225010C8C3DB00151693 /* FUDocumentController.m */; };
 		D339359F10D4DC4D000FC7C1 /* SpecialCases.plist in Resources */ = {isa = PBXBuildFile; fileRef = D339359E10D4DC4D000FC7C1 /* SpecialCases.plist */; };
-		D3393B3F10D5B2C9000FC7C1 /* appl.icns in Resources */ = {isa = PBXBuildFile; fileRef = D3393B3E10D5B2C9000FC7C1 /* appl.icns */; };
 		D33E6D8710D09C3600D76BBB /* FUSecurityPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E6D8010D09C3600D76BBB /* FUSecurityPreferences.m */; };
 		D33E6D8810D09C3600D76BBB /* FUShortcutController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E6D8210D09C3600D76BBB /* FUShortcutController.m */; };
 		D33E6D8910D09C3600D76BBB /* FUShortcutPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E6D8410D09C3600D76BBB /* FUShortcutPreferences.m */; };
@@ -143,8 +76,6 @@
 		D33E70BA10D0F1E800D76BBB /* LoadFailed.html in Resources */ = {isa = PBXBuildFile; fileRef = D33E70B810D0F1E800D76BBB /* LoadFailed.html */; };
 		D33E70ED10D0F4A000D76BBB /* FUWhitelistPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33E70E710D0F4A000D76BBB /* FUWhitelistPreferences.xib */; };
 		D33E70EE10D0F4A000D76BBB /* FUAllPlugInPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33E70E910D0F4A000D76BBB /* FUAllPlugInPreferences.xib */; };
-		D3414BC11103884000CCC986 /* UMEKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D346E58910CE436000BA0B15 /* UMEKit.framework */; };
-		D3414BD81103889B00CCC986 /* UMEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D346E58910CE436000BA0B15 /* UMEKit.framework */; };
 		D3414BE211038A4500CCC986 /* FUPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = D3414BE111038A4500CCC986 /* FUPlugIn.m */; };
 		D3414C3811038E4300CCC986 /* FUPlugIn.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D3414C3711038E3900CCC986 /* FUPlugIn.h */; };
 		D3414C3F11038E5C00CCC986 /* FUPlugInAPI.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D3414C3E11038E5800CCC986 /* FUPlugInAPI.h */; };
@@ -153,10 +84,8 @@
 		D346E35E10CE1FFD00BA0B15 /* FUPlugInAPIImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = D346E35B10CE1FFD00BA0B15 /* FUPlugInAPIImpl.m */; };
 		D346E35F10CE1FFD00BA0B15 /* FUPlugInWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D346E35D10CE1FFD00BA0B15 /* FUPlugInWrapper.m */; };
 		D346E37C10CE241A00BA0B15 /* FUPlugInController.m in Sources */ = {isa = PBXBuildFile; fileRef = D346E37B10CE241A00BA0B15 /* FUPlugInController.m */; };
-		D346E59A10CE43E500BA0B15 /* ParseKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D346E48F10CE434A00BA0B15 /* ParseKit.framework */; };
 		D346E68010CE4D0C00BA0B15 /* FUPlugInPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D346E67F10CE4D0C00BA0B15 /* FUPlugInPreferences.m */; };
 		D346E6D010CE4E4000BA0B15 /* FUBasePreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D346E6CF10CE4E4000BA0B15 /* FUBasePreferences.m */; };
-		D346E71210CE516800BA0B15 /* ParseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D346E48F10CE434A00BA0B15 /* ParseKit.framework */; };
 		D346E7E810CE542A00BA0B15 /* FUGeneralPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D346E7E710CE542A00BA0B15 /* FUGeneralPreferences.m */; };
 		D346E80510CE557200BA0B15 /* FUGeneralPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D346E80310CE557200BA0B15 /* FUGeneralPreferences.xib */; };
 		D346E80C10CE55EC00BA0B15 /* FUPlugInPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D346E80A10CE55EC00BA0B15 /* FUPlugInPreferences.xib */; };
@@ -164,7 +93,6 @@
 		D346E8A410CEBE4100BA0B15 /* FUTabsPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D346E8A310CEBE4100BA0B15 /* FUTabsPreferences.m */; };
 		D346E8C010CEC02100BA0B15 /* prefpane_icon_showall.png in Resources */ = {isa = PBXBuildFile; fileRef = D346E8BF10CEC02100BA0B15 /* prefpane_icon_showall.png */; };
 		D346E8C310CEC05300BA0B15 /* FUTabsPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D346E8C110CEC05300BA0B15 /* FUTabsPreferences.xib */; };
-		D34A5443120BB6090059D145 /* FUWaitUntilDoneCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D34A5442120BB6090059D145 /* FUWaitUntilDoneCommand.m */; };
 		D34ACB8C11C1C2D300D8A417 /* combo_field_progress_indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = D34ACB8B11C1C2D300D8A417 /* combo_field_progress_indicator.png */; };
 		D34ACCD611C2AC0E00D8A417 /* TDComboField+FUAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D34ACCD511C2AC0E00D8A417 /* TDComboField+FUAdditions.m */; };
 		D34B5E1C10CF6EF3006E17C4 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34B5E1B10CF6EF3006E17C4 /* Carbon.framework */; };
@@ -173,11 +101,8 @@
 		D34B604C10CF7E4B006E17C4 /* FUIconController.m in Sources */ = {isa = PBXBuildFile; fileRef = D34B604B10CF7E4B006E17C4 /* FUIconController.m */; };
 		D34B610110CF92B7006E17C4 /* prefpane_icon_appearance.png in Resources */ = {isa = PBXBuildFile; fileRef = D34B610010CF92B7006E17C4 /* prefpane_icon_appearance.png */; };
 		D34B610910CF92DD006E17C4 /* FUAppearancePreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D34B610710CF92DD006E17C4 /* FUAppearancePreferences.xib */; };
-		D358801B11ED8AF300F904A7 /* FUDispatchKeyboardEventCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D358801811ED8AF300F904A7 /* FUDispatchKeyboardEventCommand.m */; };
-		D358801C11ED8AF300F904A7 /* FUDispatchMouseEventCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D358801A11ED8AF300F904A7 /* FUDispatchMouseEventCommand.m */; };
 		D358801D11ED8AF300F904A7 /* FUDispatchKeyboardEventCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D358801811ED8AF300F904A7 /* FUDispatchKeyboardEventCommand.m */; };
 		D358801E11ED8AF300F904A7 /* FUDispatchMouseEventCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D358801A11ED8AF300F904A7 /* FUDispatchMouseEventCommand.m */; };
-		D358807B11EE147500F904A7 /* FUCaptureWebPageCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D358807A11EE147500F904A7 /* FUCaptureWebPageCommand.m */; };
 		D358807C11EE147500F904A7 /* FUCaptureWebPageCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D358807A11EE147500F904A7 /* FUCaptureWebPageCommand.m */; };
 		D35CBD2110D35CCB00DA1898 /* FUUserscriptController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35CBD2010D35CCB00DA1898 /* FUUserscriptController.m */; };
 		D35CBD7A10D3652600DA1898 /* FUUserscriptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35CBD7910D3652600DA1898 /* FUUserscriptViewController.m */; };
@@ -187,25 +112,14 @@
 		D35CC20410D4126500DA1898 /* UserAgentStrings.plist in Resources */ = {isa = PBXBuildFile; fileRef = D35CC20310D4126500DA1898 /* UserAgentStrings.plist */; };
 		D35CC25F10D41DD900DA1898 /* FUUserAgentWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35CC25D10D41DD900DA1898 /* FUUserAgentWindow.xib */; };
 		D35CC54810D4829400DA1898 /* DOMNode+FUAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D35CC54710D4829400DA1898 /* DOMNode+FUAdditions.m */; };
-		D362A24D11EC1379004FC3B0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D362A24C11EC1379004FC3B0 /* Security.framework */; };
 		D362A29011EC138A004FC3B0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D362A24C11EC1379004FC3B0 /* Security.framework */; };
-		D362A42411EC352C004FC3B0 /* FUFocusElementCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D362A42311EC352C004FC3B0 /* FUFocusElementCommand.m */; };
 		D362A42511EC352C004FC3B0 /* FUFocusElementCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D362A42311EC352C004FC3B0 /* FUFocusElementCommand.m */; };
-		D364ECD911F3A74B008AC15E /* FUSetFormValuesCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D364ECD811F3A74B008AC15E /* FUSetFormValuesCommand.m */; };
 		D364ECDA11F3A74B008AC15E /* FUSetFormValuesCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D364ECD811F3A74B008AC15E /* FUSetFormValuesCommand.m */; };
-		D364EDCF12306E99008AC15E /* FURunWorkflowCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D364EDCE12306E99008AC15E /* FURunWorkflowCommand.m */; };
-		D364EDD312306E99008AC15E /* FUStopWorkflowCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D364EDD212306E99008AC15E /* FUStopWorkflowCommand.m */; };
-		D36FDDB511F1270E005BB0AC /* FUSetVariableValueCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D36FDDB411F1270E005BB0AC /* FUSetVariableValueCommand.m */; };
 		D36FDDB611F1270E005BB0AC /* FUSetVariableValueCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D36FDDB411F1270E005BB0AC /* FUSetVariableValueCommand.m */; };
 		D3730F3810D2D7D200995375 /* NSFileManager+FUAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3730F3710D2D7D200995375 /* NSFileManager+FUAdditions.m */; };
 		D373ECCD110B945600ECE3BE /* NSDictionary+FUScripting.m in Sources */ = {isa = PBXBuildFile; fileRef = D373ECCC110B945600ECE3BE /* NSDictionary+FUScripting.m */; };
 		D373ED72110BF68300ECE3BE /* FUBaseScriptCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D373ED71110BF68300ECE3BE /* FUBaseScriptCommand.m */; };
 		D3778DFE10FF1F4900EEA25F /* OAPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3778DFC10FF1F4900EEA25F /* OAPreferencesWindow.xib */; };
-		D37A816D120637F000E1178C /* AutoTyper.m in Sources */ = {isa = PBXBuildFile; fileRef = D37A816A120637F000E1178C /* AutoTyper.m */; };
-		D37A816E120637F000E1178C /* AutoTypeCode.m in Sources */ = {isa = PBXBuildFile; fileRef = D37A816C120637F000E1178C /* AutoTypeCode.m */; };
-		D37E9A4F11FB997300147399 /* FakeDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = D37E9A4E11FB997300147399 /* FakeDocumentController.m */; };
-		D37E9AB611FBA15C00147399 /* AquaticPrime.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D37E9AA311FBA13600147399 /* AquaticPrime.framework */; };
-		D37E9AB711FBA16E00147399 /* AquaticPrime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37E9AA311FBA13600147399 /* AquaticPrime.framework */; };
 		D38420C81102BECD00605809 /* FUApplication.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D3F4C55210C8D1D300E0B474 /* FUApplication.h */; };
 		D38420C91102BECD00605809 /* FUUserDefaults.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D3F4C6AD10C8E28E00E0B474 /* FUUserDefaults.h */; };
 		D38420CA1102BECD00605809 /* FUNotifications.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D3D3731F10E3D32300203EB2 /* FUNotifications.h */; };
@@ -217,8 +131,6 @@
 		D38420D21102BF0100605809 /* FUBookmarkController.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D32803F210CC7BFA00BB363B /* FUBookmarkController.h */; };
 		D38420D31102BF0C00605809 /* FUBookmark.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D3E4345B10CB8D4C00A5BDEF /* FUBookmark.h */; };
 		D386705311F96D9E00248091 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D386705011F96D9100248091 /* JavaScriptCore.framework */; };
-		D386705E11F96DA900248091 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D386705011F96D9100248091 /* JavaScriptCore.framework */; };
-		D3902A5211FFBB340040422F /* FUPromptView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3902A5011FFBB340040422F /* FUPromptView.xib */; };
 		D3902A5311FFBB340040422F /* FUPromptView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3902A5011FFBB340040422F /* FUPromptView.xib */; };
 		D39A36751126A0E100DC5176 /* FUCreateCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D39A36741126A0E100DC5176 /* FUCreateCommand.m */; };
 		D3A3269510FEFF6E00032B66 /* OAPreferenceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A3268810FEFF6E00032B66 /* OAPreferenceClient.m */; };
@@ -241,7 +153,6 @@
 		D3A327A310FF0E7200032B66 /* OBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A327A210FF0E7200032B66 /* OBObject.m */; };
 		D3A3283110FF101500032B66 /* OAHelpDownIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A3282910FF101500032B66 /* OAHelpDownIcon.png */; };
 		D3A3283210FF101500032B66 /* OAHelpIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A3282A10FF101500032B66 /* OAHelpIcon.png */; };
-		D3A3590B11E2391300EFEE29 /* fake_dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = D3A3590A11E2391300EFEE29 /* fake_dsa_pub.pem */; };
 		D3ACEC571106CE2B005A3CF6 /* FUWindowController+Scripting.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ACEC561106CE2B005A3CF6 /* FUWindowController+Scripting.m */; };
 		D3ADF98F11045B870064C070 /* FUDoJavaScriptCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ADF98E11045B870064C070 /* FUDoJavaScriptCommand.m */; };
 		D3ADF9D211045FDB0064C070 /* FULoadURLCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ADF9D111045FDB0064C070 /* FULoadURLCommand.m */; };
@@ -269,207 +180,9 @@
 		D3B8BC0710E837E400271454 /* HMImageComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C60310C8D90C00E0B474 /* HMImageComboBox.m */; };
 		D3B8BC0810E837E400271454 /* HMImageComboBoxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C60510C8D90C00E0B474 /* HMImageComboBoxCell.m */; };
 		D3B8BD3D10E846C700271454 /* prefpane_icon_tabs.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D3B8BD3C10E846C700271454 /* prefpane_icon_tabs.tiff */; };
-		D3BD6EDF1209FEB200BE7395 /* FUDismissDialogCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BD6EDE1209FEB200BE7395 /* FUDismissDialogCommand.m */; };
 		D3BD6EE01209FEB200BE7395 /* FUDismissDialogCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BD6EDE1209FEB200BE7395 /* FUDismissDialogCommand.m */; };
-		D3C2E39B11D7E9C600106E86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D332221510C8C1A500151693 /* main.m */; };
-		D3C2E39D11D7E9C600106E86 /* FUWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D332222D10C8C2A100151693 /* FUWindowController.m */; };
-		D3C2E39E11D7E9C600106E86 /* FUWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D332223B10C8C34B00151693 /* FUWindow.m */; };
-		D3C2E39F11D7E9C600106E86 /* FUDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = D332225010C8C3DB00151693 /* FUDocumentController.m */; };
-		D3C2E3A011D7E9C600106E86 /* FUWindowToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C53510C8CF4600E0B474 /* FUWindowToolbar.m */; };
-		D3C2E3A111D7E9C600106E86 /* FUApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C55310C8D1D300E0B474 /* FUApplication.m */; };
-		D3C2E3A211D7E9C600106E86 /* FUBackForwardPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C56D10C8D3EF00E0B474 /* FUBackForwardPopUpButton.m */; };
-		D3C2E3A311D7E9C600106E86 /* NSArray+FUAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C5A410C8D6A400E0B474 /* NSArray+FUAdditions.m */; };
-		D3C2E3A411D7E9C600106E86 /* FUProgressTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C5F710C8D8BE00E0B474 /* FUProgressTextField.m */; };
-		D3C2E3A511D7E9C600106E86 /* FURecentURLController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C60D10C8D93E00E0B474 /* FURecentURLController.m */; };
-		D3C2E3A611D7E9C600106E86 /* FUWebPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C69D10C8DDD500E0B474 /* FUWebPreferences.m */; };
-		D3C2E3A711D7E9C600106E86 /* FUUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C6AE10C8E28E00E0B474 /* FUUserDefaults.m */; };
-		D3C2E3A811D7E9C600106E86 /* FUTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = D305193410C909E400AFF325 /* FUTabController.m */; };
-		D3C2E3A911D7E9C600106E86 /* NSString+FUAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D305199C10C978E300AFF325 /* NSString+FUAdditions.m */; };
-		D3C2E3AA11D7E9C600106E86 /* FUWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3051A1710C980A000AFF325 /* FUWebView.m */; };
-		D3C2E3AC11D7E9C600106E86 /* FUUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D3051C9410CA3A4500AFF325 /* FUUtils.m */; };
-		D3C2E3AD11D7E9C600106E86 /* FUHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3051CE510CA45ED00AFF325 /* FUHistoryController.m */; };
-		D3C2E3AE11D7E9C600106E86 /* WebIconDatabase+FUAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3051E2510CADB3F00AFF325 /* WebIconDatabase+FUAdditions.m */; };
-		D3C2E3AF11D7E9C600106E86 /* FUDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E42F3210CB152000A5BDEF /* FUDownloadItem.m */; };
-		D3C2E3B011D7E9C600106E86 /* FUDownloadListBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E42F3410CB152000A5BDEF /* FUDownloadListBackgroundView.m */; };
-		D3C2E3B111D7E9C600106E86 /* FUDownloadListButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E42F3610CB152000A5BDEF /* FUDownloadListButton.m */; };
-		D3C2E3B211D7E9C600106E86 /* FUDownloadListButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E42F3810CB152000A5BDEF /* FUDownloadListButtonCell.m */; };
-		D3C2E3B311D7E9C600106E86 /* FUDownloadWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E42F3A10CB152000A5BDEF /* FUDownloadWindowController.m */; };
-		D3C2E3B411D7E9C600106E86 /* FUViewSourceWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E430A210CB52D900A5BDEF /* FUViewSourceWindowController.m */; };
-		D3C2E3B511D7E9C600106E86 /* FUFindPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E432ED10CB70AC00A5BDEF /* FUFindPanelView.m */; };
-		D3C2E3B611D7E9C600106E86 /* FUBookmark.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E4345C10CB8D4C00A5BDEF /* FUBookmark.m */; };
-		D3C2E3B711D7E9C600106E86 /* FUBookmarkBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E4345E10CB8D4C00A5BDEF /* FUBookmarkBar.m */; };
-		D3C2E3B811D7E9C600106E86 /* FUBookmarkBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E4346010CB8D4C00A5BDEF /* FUBookmarkBarButton.m */; };
-		D3C2E3B911D7E9C600106E86 /* FUBookmarkBarButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E4346210CB8D4C00A5BDEF /* FUBookmarkBarButtonCell.m */; };
-		D3C2E3BA11D7E9C600106E86 /* FUBookmarkBarOverflowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E4346410CB8D4C00A5BDEF /* FUBookmarkBarOverflowButton.m */; };
-		D3C2E3BB11D7E9C600106E86 /* FUBookmarkButtonSeparator.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E4346610CB8D4C00A5BDEF /* FUBookmarkButtonSeparator.m */; };
-		D3C2E3BC11D7E9C600106E86 /* FUBookmarkWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E4346810CB8D4C00A5BDEF /* FUBookmarkWindowController.m */; };
-		D3C2E3BD11D7E9C600106E86 /* FUBookmarkController.m in Sources */ = {isa = PBXBuildFile; fileRef = D32803F310CC7BFA00BB363B /* FUBookmarkController.m */; };
-		D3C2E3BE11D7E9C600106E86 /* FUTabBarControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D346E18E10CCE91B00BA0B15 /* FUTabBarControl.m */; };
-		D3C2E3BF11D7E9C600106E86 /* FUActivation.m in Sources */ = {isa = PBXBuildFile; fileRef = D346E32810CD7C6600BA0B15 /* FUActivation.m */; };
-		D3C2E3C011D7E9C600106E86 /* FUPlugInAPIImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = D346E35B10CE1FFD00BA0B15 /* FUPlugInAPIImpl.m */; };
-		D3C2E3C111D7E9C600106E86 /* FUPlugInWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D346E35D10CE1FFD00BA0B15 /* FUPlugInWrapper.m */; };
-		D3C2E3C211D7E9C600106E86 /* FUPlugInController.m in Sources */ = {isa = PBXBuildFile; fileRef = D346E37B10CE241A00BA0B15 /* FUPlugInController.m */; };
-		D3C2E3C311D7E9C600106E86 /* FUPlugInPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D346E67F10CE4D0C00BA0B15 /* FUPlugInPreferences.m */; };
-		D3C2E3C411D7E9C600106E86 /* FUBasePreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D346E6CF10CE4E4000BA0B15 /* FUBasePreferences.m */; };
-		D3C2E3C511D7E9C600106E86 /* FUGeneralPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D346E7E710CE542A00BA0B15 /* FUGeneralPreferences.m */; };
-		D3C2E3C611D7E9C600106E86 /* TDHtmlSyntaxHighlighter.m in Sources */ = {isa = PBXBuildFile; fileRef = D346E81310CE5A4300BA0B15 /* TDHtmlSyntaxHighlighter.m */; };
-		D3C2E3C711D7E9C600106E86 /* FUTabsPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D346E8A310CEBE4100BA0B15 /* FUTabsPreferences.m */; };
-		D3C2E3C811D7E9C600106E86 /* IconFamily.m in Sources */ = {isa = PBXBuildFile; fileRef = D34B602810CF7477006E17C4 /* IconFamily.m */; };
-		D3C2E3C911D7E9C600106E86 /* NSString+CarbonFSRefCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = D34B602F10CF74A3006E17C4 /* NSString+CarbonFSRefCreation.m */; };
-		D3C2E3CA11D7E9C600106E86 /* FUIconController.m in Sources */ = {isa = PBXBuildFile; fileRef = D34B604B10CF7E4B006E17C4 /* FUIconController.m */; };
-		D3C2E3CB11D7E9C600106E86 /* FUAppearancePreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AF875B10CFA00A00C601A3 /* FUAppearancePreferences.m */; };
-		D3C2E3CC11D7E9C600106E86 /* FUBehaviorPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AF875E10CFA01E00C601A3 /* FUBehaviorPreferences.m */; };
-		D3C2E3CD11D7E9C600106E86 /* FUSecurityPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E6D8010D09C3600D76BBB /* FUSecurityPreferences.m */; };
-		D3C2E3CE11D7E9C600106E86 /* FUShortcutController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E6D8210D09C3600D76BBB /* FUShortcutController.m */; };
-		D3C2E3CF11D7E9C600106E86 /* FUShortcutPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E6D8410D09C3600D76BBB /* FUShortcutPreferences.m */; };
-		D3C2E3D011D7E9C600106E86 /* FUUpdatePreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E6D8610D09C3600D76BBB /* FUUpdatePreferences.m */; };
-		D3C2E3D111D7E9C600106E86 /* FUShortcutCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E6FC810D0CF0200D76BBB /* FUShortcutCommand.m */; };
-		D3C2E3D311D7E9C600106E86 /* FUUserstyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E708010D0EB3D00D76BBB /* FUUserstyleViewController.m */; };
-		D3C2E3D511D7E9C600106E86 /* FUUserstyleController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E709910D0EE7100D76BBB /* FUUserstyleController.m */; };
-		D3C2E3D611D7E9C600106E86 /* FUWhitelistController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E70A010D0EF2100D76BBB /* FUWhitelistController.m */; };
-		D3C2E3D711D7E9C600106E86 /* FUWildcardPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E70A710D0F0BB00D76BBB /* FUWildcardPattern.m */; };
-		D3C2E3D811D7E9C600106E86 /* NSFileManager+FUAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3730F3710D2D7D200995375 /* NSFileManager+FUAdditions.m */; };
-		D3C2E3D911D7E9C600106E86 /* FUUserscriptController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35CBD2010D35CCB00DA1898 /* FUUserscriptController.m */; };
-		D3C2E3DA11D7E9C600106E86 /* FUUserscriptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35CBD7910D3652600DA1898 /* FUUserscriptViewController.m */; };
-		D3C2E3DB11D7E9C600106E86 /* FUUserthingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35CBD8A10D3664000DA1898 /* FUUserthingViewController.m */; };
-		D3C2E3DC11D7E9C600106E86 /* FUUserAgentWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35CC20110D411FA00DA1898 /* FUUserAgentWindowController.m */; };
-		D3C2E3DD11D7E9C600106E86 /* DOMNode+FUAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D35CC54710D4829400DA1898 /* DOMNode+FUAdditions.m */; };
-		D3C2E3DE11D7E9C600106E86 /* FUView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB01FA10D6141E0057D70C /* FUView.m */; };
-		D3C2E3DF11D7E9C600106E86 /* NSPasteboard+FUAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D30BC3AF10E11D920019816B /* NSPasteboard+FUAdditions.m */; };
-		D3C2E3E311D7E9C600106E86 /* FUNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D3732010E3D32300203EB2 /* FUNotifications.m */; };
-		D3C2E3E411D7E9C600106E86 /* HMAppKitEx.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C5FB10C8D90C00E0B474 /* HMAppKitEx.m */; };
-		D3C2E3E511D7E9C600106E86 /* HMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C5FD10C8D90C00E0B474 /* HMButton.m */; };
-		D3C2E3E611D7E9C600106E86 /* HMButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C5FF10C8D90C00E0B474 /* HMButtonCell.m */; };
-		D3C2E3E711D7E9C600106E86 /* HMFoundationEx.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C60110C8D90C00E0B474 /* HMFoundationEx.m */; };
-		D3C2E3E811D7E9C600106E86 /* HMImageComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C60310C8D90C00E0B474 /* HMImageComboBox.m */; };
-		D3C2E3E911D7E9C600106E86 /* HMImageComboBoxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C60510C8D90C00E0B474 /* HMImageComboBoxCell.m */; };
-		D3C2E3EA11D7E9C600106E86 /* FUWindowController+NSToolbarDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3189D6B10F5A9F700B6AA21 /* FUWindowController+NSToolbarDelegate.m */; };
-		D3C2E3EB11D7E9C600106E86 /* FUUserthingWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3189FAD10F83F9000B6AA21 /* FUUserthingWindowController.m */; };
-		D3C2E3EC11D7E9C600106E86 /* OAPreferenceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A3268810FEFF6E00032B66 /* OAPreferenceClient.m */; };
-		D3C2E3ED11D7E9C600106E86 /* OAPreferenceClientRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A3268A10FEFF6E00032B66 /* OAPreferenceClientRecord.m */; };
-		D3C2E3EE11D7E9C600106E86 /* OAPreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A3268C10FEFF6E00032B66 /* OAPreferenceController.m */; };
-		D3C2E3EF11D7E9C600106E86 /* OAPreferencesIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A3268E10FEFF6E00032B66 /* OAPreferencesIconView.m */; };
-		D3C2E3F011D7E9C600106E86 /* OAPreferencesToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A3269210FEFF6E00032B66 /* OAPreferencesToolbar.m */; };
-		D3C2E3F111D7E9C600106E86 /* OAPreferencesWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A3269410FEFF6E00032B66 /* OAPreferencesWindow.m */; };
-		D3C2E3F211D7E9C600106E86 /* NSString-OFSimpleMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A326B510FF005000032B66 /* NSString-OFSimpleMatching.m */; };
-		D3C2E3F311D7E9C600106E86 /* NSArray-OFExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A326C910FF00E000032B66 /* NSArray-OFExtensions.m */; };
-		D3C2E3F411D7E9C600106E86 /* NSString-OFReplacement.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A326D610FF020F00032B66 /* NSString-OFReplacement.m */; };
-		D3C2E3F511D7E9C600106E86 /* NSObject-OFExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A326F810FF03F300032B66 /* NSObject-OFExtensions.m */; };
-		D3C2E3F611D7E9C600106E86 /* NSMutableArray-OFExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A3270510FF057800032B66 /* NSMutableArray-OFExtensions.m */; };
-		D3C2E3F711D7E9C600106E86 /* NSImage-OAExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A3270E10FF05E600032B66 /* NSImage-OAExtensions.m */; };
-		D3C2E3F811D7E9C600106E86 /* NSBundle-OAExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A3271F10FF074200032B66 /* NSBundle-OAExtensions.m */; };
-		D3C2E3F911D7E9C600106E86 /* OFPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A3277410FF0C8600032B66 /* OFPreference.m */; };
-		D3C2E3FA11D7E9C600106E86 /* OFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A3279510FF0E4B00032B66 /* OFObject.m */; };
-		D3C2E3FB11D7E9C600106E86 /* OBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A327A210FF0E7200032B66 /* OBObject.m */; };
-		D3C2E3FC11D7E9C600106E86 /* PTHotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F941361102F35B00267DA0 /* PTHotKey.m */; };
-		D3C2E3FD11D7E9C600106E86 /* PTHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F941381102F35B00267DA0 /* PTHotKeyCenter.m */; };
-		D3C2E3FE11D7E9C600106E86 /* PTKeyCodeTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F9413A1102F35B00267DA0 /* PTKeyCodeTranslator.m */; };
-		D3C2E3FF11D7E9C600106E86 /* PTKeyCombo.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F9413C1102F35B00267DA0 /* PTKeyCombo.m */; };
-		D3C2E40011D7E9C600106E86 /* FUPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = D3414BE111038A4500CCC986 /* FUPlugIn.m */; };
-		D3C2E40111D7E9C600106E86 /* FUDoJavaScriptCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ADF98E11045B870064C070 /* FUDoJavaScriptCommand.m */; };
-		D3C2E40211D7E9C600106E86 /* FULoadURLCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ADF9D111045FDB0064C070 /* FULoadURLCommand.m */; };
-		D3C2E40311D7E9C600106E86 /* FUDocument+Scripting.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ADFA9F110468450064C070 /* FUDocument+Scripting.m */; };
-		D3C2E40411D7E9C600106E86 /* FUTabController+Scripting.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ADFAA21104684F0064C070 /* FUTabController+Scripting.m */; };
-		D3C2E40511D7E9C600106E86 /* FUGoBackCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ADFAFC1104E2210064C070 /* FUGoBackCommand.m */; };
-		D3C2E40611D7E9C600106E86 /* FUGoForwardCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ADFAFF1104E22B0064C070 /* FUGoForwardCommand.m */; };
-		D3C2E40711D7E9C600106E86 /* FUGoHomeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ADFB021104E2340064C070 /* FUGoHomeCommand.m */; };
-		D3C2E40811D7E9C600106E86 /* FUStopLoadingCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ADFB051104E23E0064C070 /* FUStopLoadingCommand.m */; };
-		D3C2E40911D7E9C600106E86 /* FUReloadCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ADFB091104E24C0064C070 /* FUReloadCommand.m */; };
-		D3C2E40A11D7E9C600106E86 /* FUActualSizeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ADFB0C1104E2540064C070 /* FUActualSizeCommand.m */; };
-		D3C2E40B11D7E9C600106E86 /* FUZoomInCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ADFB0F1104E25C0064C070 /* FUZoomInCommand.m */; };
-		D3C2E40C11D7E9C600106E86 /* FUZoomOutCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ADFB121104E2640064C070 /* FUZoomOutCommand.m */; };
-		D3C2E40D11D7E9C600106E86 /* FUDocumentController+Scripting.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ADFBCA1104E9440064C070 /* FUDocumentController+Scripting.m */; };
-		D3C2E40E11D7E9C600106E86 /* FUWindowController+Scripting.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ACEC561106CE2B005A3CF6 /* FUWindowController+Scripting.m */; };
-		D3C2E40F11D7E9C600106E86 /* NSDictionary+FUScripting.m in Sources */ = {isa = PBXBuildFile; fileRef = D373ECCC110B945600ECE3BE /* NSDictionary+FUScripting.m */; };
-		D3C2E41011D7E9C600106E86 /* FUBaseScriptCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D373ED71110BF68300ECE3BE /* FUBaseScriptCommand.m */; };
-		D3C2E41211D7E9C600106E86 /* FUHandlerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D31C7B0911129A5B00563A4D /* FUHandlerController.m */; };
-		D3C2E41311D7E9C600106E86 /* FUSubmitFormCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D80322111E3BDA0025650C /* FUSubmitFormCommand.m */; };
-		D3C2E41411D7E9C600106E86 /* FUTabController+Recording.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B538C4111F7ABE0056D586 /* FUTabController+Recording.m */; };
-		D3C2E41511D7E9C600106E86 /* FUCreateCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D39A36741126A0E100DC5176 /* FUCreateCommand.m */; };
-		D3C2E41611D7E9C600106E86 /* FUSetElementValueCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E616761130DD41006729E9 /* FUSetElementValueCommand.m */; };
-		D3C2E41711D7E9C600106E86 /* FUClickLinkCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E616B91130DEF2006729E9 /* FUClickLinkCommand.m */; };
-		D3C2E41811D7E9C600106E86 /* FUClickButtonCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E616BC1130DEFB006729E9 /* FUClickButtonCommand.m */; };
-		D3C2E41911D7E9C600106E86 /* FUProgressComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB8C1E117A58D4003C4A2E /* FUProgressComboBox.m */; };
-		D3C2E41A11D7E9C600106E86 /* TDComboField+FUAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D34ACCD511C2AC0E00D8A417 /* TDComboField+FUAdditions.m */; };
-		D3C2E41B11D7E9C600106E86 /* FUAssertCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B4B8C211CEC752000D7AD1 /* FUAssertCommand.m */; };
-		D3C2E41D11D7E9C600106E86 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
-		D3C2E41E11D7E9C600106E86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
-		D3C2E42111D7E9C600106E86 /* OAPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3778DFC10FF1F4900EEA25F /* OAPreferencesWindow.xib */; };
-		D3C2E42211D7E9C600106E86 /* FUDownloadWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E42FDB10CB1E1600A5BDEF /* FUDownloadWindow.xib */; };
-		D3C2E42311D7E9C600106E86 /* FUViewSourceWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E430A910CB537A00A5BDEF /* FUViewSourceWindow.xib */; };
-		D3C2E42411D7E9C600106E86 /* FUUserAgentWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35CC25D10D41DD900DA1898 /* FUUserAgentWindow.xib */; };
-		D3C2E42511D7E9C600106E86 /* FUBookmarkWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D328FB1110CB9E2600BB363B /* FUBookmarkWindow.xib */; };
-		D3C2E42611D7E9C600106E86 /* FUGeneralPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D346E80310CE557200BA0B15 /* FUGeneralPreferences.xib */; };
-		D3C2E42711D7E9C600106E86 /* FUAppearancePreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D34B610710CF92DD006E17C4 /* FUAppearancePreferences.xib */; };
-		D3C2E42811D7E9C600106E86 /* FUBehaviorPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AF878310CFA34300C601A3 /* FUBehaviorPreferences.xib */; };
-		D3C2E42911D7E9C600106E86 /* FUTabsPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D346E8C110CEC05300BA0B15 /* FUTabsPreferences.xib */; };
-		D3C2E42A11D7E9C600106E86 /* FUSecurityPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33E6E2510D0A6FF00D76BBB /* FUSecurityPreferences.xib */; };
-		D3C2E42B11D7E9C600106E86 /* FUShortcutPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33E6E2710D0A6FF00D76BBB /* FUShortcutPreferences.xib */; };
-		D3C2E42C11D7E9C600106E86 /* FUUpdatePreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33E6E2910D0A6FF00D76BBB /* FUUpdatePreferences.xib */; };
-		D3C2E42D11D7E9C600106E86 /* FUUserthingWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3189FA210F83DF100B6AA21 /* FUUserthingWindow.xib */; };
-		D3C2E42E11D7E9C600106E86 /* FUUserthingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35CBDB710D36A9B00DA1898 /* FUUserthingView.xib */; };
-		D3C2E43111D7E9C600106E86 /* FUPlugInPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D346E80A10CE55EC00BA0B15 /* FUPlugInPreferences.xib */; };
-		D3C2E43211D7E9C600106E86 /* Fluidium.sdef in Resources */ = {isa = PBXBuildFile; fileRef = D3E13270110420EA007FE89E /* Fluidium.sdef */; };
-		D3C2E43411D7E9C600106E86 /* Shortcuts.plist in Resources */ = {isa = PBXBuildFile; fileRef = D33E6DF210D0A2C700D76BBB /* Shortcuts.plist */; };
-		D3C2E43511D7E9C600106E86 /* SpecialCases.plist in Resources */ = {isa = PBXBuildFile; fileRef = D339359E10D4DC4D000FC7C1 /* SpecialCases.plist */; };
-		D3C2E43611D7E9C600106E86 /* UserAgentStrings.plist in Resources */ = {isa = PBXBuildFile; fileRef = D35CC20310D4126500DA1898 /* UserAgentStrings.plist */; };
-		D3C2E43711D7E9C600106E86 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = D30BC46F10E188260019816B /* Growl Registration Ticket.growlRegDict */; };
-		D3C2E43811D7E9C600106E86 /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = D33E70B710D0F1E800D76BBB /* default.css */; };
-		D3C2E43911D7E9C600106E86 /* LoadFailed.html in Resources */ = {isa = PBXBuildFile; fileRef = D33E70B810D0F1E800D76BBB /* LoadFailed.html */; };
-		D3C2E43C11D7E9C600106E86 /* prefpane_icon_appearance.png in Resources */ = {isa = PBXBuildFile; fileRef = D34B610010CF92B7006E17C4 /* prefpane_icon_appearance.png */; };
-		D3C2E43D11D7E9C600106E86 /* prefpane_icon_behavior.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AF877E10CFA31400C601A3 /* prefpane_icon_behavior.png */; };
-		D3C2E43E11D7E9C600106E86 /* prefpane_icon_security.png in Resources */ = {isa = PBXBuildFile; fileRef = D33E6DEC10D0A29E00D76BBB /* prefpane_icon_security.png */; };
-		D3C2E43F11D7E9C600106E86 /* prefpane_icon_shortcuts.png in Resources */ = {isa = PBXBuildFile; fileRef = D33E6DED10D0A29E00D76BBB /* prefpane_icon_shortcuts.png */; };
-		D3C2E44011D7E9C600106E86 /* prefpane_icon_update.png in Resources */ = {isa = PBXBuildFile; fileRef = D33E6DEE10D0A29E00D76BBB /* prefpane_icon_update.png */; };
-		D3C2E44111D7E9C600106E86 /* prefpane_icon_plugins.png in Resources */ = {isa = PBXBuildFile; fileRef = D33E6E1010D0A63700D76BBB /* prefpane_icon_plugins.png */; };
-		D3C2E44211D7E9C600106E86 /* toolbar_button_home.png in Resources */ = {isa = PBXBuildFile; fileRef = D33E6E3310D0A99C00D76BBB /* toolbar_button_home.png */; };
-		D3C2E44311D7E9C600106E86 /* location_field_progress_indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = D33E6E3910D0A9BA00D76BBB /* location_field_progress_indicator.png */; };
-		D3C2E44411D7E9C600106E86 /* prefpane_icon_tabs.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D3B8BD3C10E846C700271454 /* prefpane_icon_tabs.tiff */; };
-		D3C2E44511D7E9C600106E86 /* OAPreferencesNextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A3268F10FEFF6E00032B66 /* OAPreferencesNextButton.png */; };
-		D3C2E44611D7E9C600106E86 /* OAPreferencesPreviousButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A3269010FEFF6E00032B66 /* OAPreferencesPreviousButton.png */; };
-		D3C2E44711D7E9C600106E86 /* OAHelpDownIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A3282910FF101500032B66 /* OAHelpDownIcon.png */; };
-		D3C2E44811D7E9C600106E86 /* OAHelpIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A3282A10FF101500032B66 /* OAHelpIcon.png */; };
-		D3C2E44B11D7E9C600106E86 /* combo_field_progress_indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = D34ACB8B11C1C2D300D8A417 /* combo_field_progress_indicator.png */; };
-		D3C2E44D11D7E9C600106E86 /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D30BC44E10E187A40019816B /* Growl.framework */; };
-		D3C2E44E11D7E9C600106E86 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D3189E8E10F6FFFA00B6AA21 /* Sparkle.framework */; };
-		D3C2E44F11D7E9C600106E86 /* ShortcutRecorder.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D3F9415D1102F3A500267DA0 /* ShortcutRecorder.framework */; };
-		D3C2E45011D7E9C600106E86 /* PSMTabBarControl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D328FCA310CC339F00BB363B /* PSMTabBarControl.framework */; };
-		D3C2E45111D7E9C600106E86 /* TDAppKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D31CC0CA10EFCB590013347D /* TDAppKit.framework */; };
-		D3C2E45211D7E9C600106E86 /* ParseKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D346E48F10CE434A00BA0B15 /* ParseKit.framework */; };
-		D3C2E45311D7E9C600106E86 /* UMEKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D346E58910CE436000BA0B15 /* UMEKit.framework */; };
-		D3C2E45511D7E9C600106E86 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34B5E1B10CF6EF3006E17C4 /* Carbon.framework */; };
-		D3C2E45611D7E9C600106E86 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D346EE4E10CF6D6200BA0B15 /* CoreServices.framework */; };
-		D3C2E45711D7E9C600106E86 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
-		D3C2E45811D7E9C600106E86 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F4C3D310C8C7A300E0B474 /* WebKit.framework */; };
-		D3C2E45911D7E9C600106E86 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30BC44E10E187A40019816B /* Growl.framework */; };
-		D3C2E45A11D7E9C600106E86 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3189E8E10F6FFFA00B6AA21 /* Sparkle.framework */; };
-		D3C2E45B11D7E9C600106E86 /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F9415D1102F3A500267DA0 /* ShortcutRecorder.framework */; };
-		D3C2E45C11D7E9C600106E86 /* PSMTabBarControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D328FCA310CC339F00BB363B /* PSMTabBarControl.framework */; };
-		D3C2E45D11D7E9C600106E86 /* TDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31CC0CA10EFCB590013347D /* TDAppKit.framework */; };
-		D3C2E45E11D7E9C600106E86 /* ParseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D346E48F10CE434A00BA0B15 /* ParseKit.framework */; };
-		D3C2E45F11D7E9C600106E86 /* UMEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D346E58910CE436000BA0B15 /* UMEKit.framework */; };
-		D3C2E46111D7E9C600106E86 /* FUApplication.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D3F4C55210C8D1D300E0B474 /* FUApplication.h */; };
-		D3C2E46211D7E9C600106E86 /* FUUserDefaults.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D3F4C6AD10C8E28E00E0B474 /* FUUserDefaults.h */; };
-		D3C2E46311D7E9C600106E86 /* FUNotifications.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D3D3731F10E3D32300203EB2 /* FUNotifications.h */; };
-		D3C2E46411D7E9C600106E86 /* FUDocument.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D332221110C8C19500151693 /* FUDocument.h */; };
-		D3C2E46511D7E9C600106E86 /* FUWindowController.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D332222C10C8C2A100151693 /* FUWindowController.h */; };
-		D3C2E46611D7E9C600106E86 /* FUTabController.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D305193310C909E400AFF325 /* FUTabController.h */; };
-		D3C2E46711D7E9C600106E86 /* FUWebView.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D3051A1610C980A000AFF325 /* FUWebView.h */; };
-		D3C2E46811D7E9C600106E86 /* FUActivation.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D346E32710CD7C6600BA0B15 /* FUActivation.h */; };
-		D3C2E46911D7E9C600106E86 /* FUBookmarkController.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D32803F210CC7BFA00BB363B /* FUBookmarkController.h */; };
-		D3C2E46A11D7E9C600106E86 /* FUBookmark.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D3E4345B10CB8D4C00A5BDEF /* FUBookmark.h */; };
-		D3C2E46B11D7E9C600106E86 /* FUPlugIn.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D3414C3711038E3900CCC986 /* FUPlugIn.h */; };
-		D3C2E46C11D7E9C600106E86 /* FUPlugInAPI.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D3414C3E11038E5800CCC986 /* FUPlugInAPI.h */; };
-		D3C2E56411D7F27600106E86 /* Fake-DefaultValues.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3C2E56311D7F27600106E86 /* Fake-DefaultValues.plist */; };
-		D3C2E59F11D7F6CD00106E86 /* fake.icns in Resources */ = {isa = PBXBuildFile; fileRef = D3C2E59E11D7F6CD00106E86 /* fake.icns */; };
 		D3D3732110E3D32300203EB2 /* FUNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D3732010E3D32300203EB2 /* FUNotifications.m */; };
 		D3D3D0091112D8CF000585EB /* prefpane_icon_handlers.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D3D0081112D8CF000585EB /* prefpane_icon_handlers.png */; };
-		D3D4853B11E289E50030A659 /* FakeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D4853A11E289E50030A659 /* FakeWindow.m */; };
-		D3D4857211E28BA80030A659 /* FakeMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3D4857011E28BA80030A659 /* FakeMainMenu.xib */; };
-		D3D4857511E28BCB0030A659 /* FakeDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D4857411E28BCB0030A659 /* FakeDocument.m */; };
-		D3D486BC11E298180030A659 /* FakeConnectionContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D486BB11E298180030A659 /* FakeConnectionContentView.m */; };
-		D3D4885311E2A6420030A659 /* FakeWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3D4856D11E28B8A0030A659 /* FakeWindow.xib */; };
-		D3D6452F11E4169B00BCB75A /* FakeWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D488B611E2C64B0030A659 /* FakeWindowController.m */; };
 		D3D800EB111E187D0025650C /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D346EE4E10CF6D6200BA0B15 /* CoreServices.framework */; };
 		D3D80323111E3BDA0025650C /* FUSubmitFormCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D80322111E3BDA0025650C /* FUSubmitFormCommand.m */; };
 		D3DB01FB10D6141E0057D70C /* FUView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB01FA10D6141E0057D70C /* FUView.m */; };
@@ -493,13 +206,8 @@
 		D3E616771130DD41006729E9 /* FUSetElementValueCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E616761130DD41006729E9 /* FUSetElementValueCommand.m */; };
 		D3E616BA1130DEF2006729E9 /* FUClickLinkCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E616B91130DEF2006729E9 /* FUClickLinkCommand.m */; };
 		D3E616BD1130DEFB006729E9 /* FUClickButtonCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E616BC1130DEFB006729E9 /* FUClickButtonCommand.m */; };
-		D3E645AD11FCBDD7008525FF /* FUDocumentController.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = D38421491102C95900605809 /* FUDocumentController.h */; };
 		D3EB8C1F117A58D4003C4A2E /* FUProgressComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB8C1E117A58D4003C4A2E /* FUProgressComboBox.m */; };
-		D3F0C95E11EBC143002E2BA9 /* SecurityInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F0C95D11EBC143002E2BA9 /* SecurityInterface.framework */; };
 		D3F0C97311EBC176002E2BA9 /* SecurityInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F0C95D11EBC143002E2BA9 /* SecurityInterface.framework */; };
-		D3F155BB11E8E801008F1626 /* fdoc.icns in Resources */ = {isa = PBXBuildFile; fileRef = D3F155BA11E8E801008F1626 /* fdoc.icns */; };
-		D3F156D211E9113E008F1626 /* FakeTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F156D111E9113E008F1626 /* FakeTabController.m */; };
-		D3F48EC911D9A3A30083E8EA /* prefpane_icon_showall.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F48EC811D9A3A30083E8EA /* prefpane_icon_showall.png */; };
 		D3F4C3D410C8C7A300E0B474 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F4C3D310C8C7A300E0B474 /* WebKit.framework */; };
 		D3F4C53610C8CF4600E0B474 /* FUWindowToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C53510C8CF4600E0B474 /* FUWindowToolbar.m */; };
 		D3F4C55410C8D1D300E0B474 /* FUApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F4C55310C8D1D300E0B474 /* FUApplication.m */; };
@@ -516,296 +224,141 @@
 		D3F941401102F35B00267DA0 /* PTKeyCombo.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F9413C1102F35B00267DA0 /* PTKeyCombo.m */; };
 		D3F9415E1102F3A500267DA0 /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F9415D1102F3A500267DA0 /* ShortcutRecorder.framework */; };
 		D3F941601102F3B900267DA0 /* ShortcutRecorder.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D3F9415D1102F3A500267DA0 /* ShortcutRecorder.framework */; };
-		F12B745013387B93000AA336 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F12B744F13387B93000AA336 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D309FCD811DFE32000C30AA8 /* PBXContainerItemProxy */ = {
+		C52FC2D313A2029D00A2D359 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D32E8C2310E593AB00445B4C /* TabsPlugIn.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
-			remoteInfo = TabsPlugIn;
-		};
-		D31CC0C910EFCB590013347D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D31CC0C010EFCB590013347D /* TDAppKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
-			remoteInfo = TDAppKit;
-		};
-		D31CC0CB10EFCB590013347D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D31CC0C010EFCB590013347D /* TDAppKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D31CBFE910EFB9630013347D;
-			remoteInfo = ListViewDemoApp;
-		};
-		D31CC0CD10EFCB770013347D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D31CC0C010EFCB590013347D /* TDAppKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
-			remoteInfo = TDAppKit;
-		};
-		D328FC9E10CC339F00BB363B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D328FC9410CC339E00BB363B /* PSMTabBarControl.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8D1AC9740486D14A00FE50C9;
-			remoteInfo = PSMTabBarControl;
-		};
-		D328FCA010CC339F00BB363B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D328FC9410CC339E00BB363B /* PSMTabBarControl.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A251BEA00959BB5B0058BC7F;
-			remoteInfo = TabBarControlDemo;
-		};
-		D328FCA210CC339F00BB363B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D328FC9410CC339E00BB363B /* PSMTabBarControl.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 53DF68FD067E5B5A0090B5B0;
-			remoteInfo = PSMTabBarControlFramework;
-		};
-		D328FF4F10CC340C00BB363B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D328FC9410CC339E00BB363B /* PSMTabBarControl.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 53DF68FC067E5B5A0090B5B0;
-			remoteInfo = PSMTabBarControlFramework;
-		};
-		D32E8C2710E593AB00445B4C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D32E8C2310E593AB00445B4C /* TabsPlugIn.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8D5B49B6048680CD000E48DA;
-			remoteInfo = TabsPlugIn;
-		};
-		D33B1DC21116AF7700F754AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D38423141102D50D00605809;
-			remoteInfo = "Fluidium+PlugIns";
-		};
-		D3414BBF1103883100CCC986 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D346E58310CE436000BA0B15 /* UMEKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
-			remoteInfo = UMEKit;
-		};
-		D346E48E10CE434A00BA0B15 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D346E48410CE434A00BA0B15 /* ParseKit.xcodeproj */;
+			containerPortal = C52FC2C313A2029D00A2D359 /* ParseKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
 			remoteInfo = ParseKit;
 		};
-		D346E49010CE434A00BA0B15 /* PBXContainerItemProxy */ = {
+		C52FC2D513A2029D00A2D359 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D346E48410CE434A00BA0B15 /* ParseKit.xcodeproj */;
+			containerPortal = C52FC2C313A2029D00A2D359 /* ParseKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D389F1CE0F1965E600558235;
 			remoteInfo = JSParseKit;
 		};
-		D346E49210CE434A00BA0B15 /* PBXContainerItemProxy */ = {
+		C52FC2D713A2029D00A2D359 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D346E48410CE434A00BA0B15 /* ParseKit.xcodeproj */;
+			containerPortal = C52FC2C313A2029D00A2D359 /* ParseKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D3FDC5830FFC4BFC00F1F797;
 			remoteInfo = ParseKitMobile;
 		};
-		D346E49410CE434A00BA0B15 /* PBXContainerItemProxy */ = {
+		C52FC2D913A2029D00A2D359 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D346E48410CE434A00BA0B15 /* ParseKit.xcodeproj */;
+			containerPortal = C52FC2C313A2029D00A2D359 /* ParseKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D3C7D87A0A411FBF005DD154;
 			remoteInfo = Tests;
 		};
-		D346E49610CE434A00BA0B15 /* PBXContainerItemProxy */ = {
+		C52FC2DB13A2029D00A2D359 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D346E48410CE434A00BA0B15 /* ParseKit.xcodeproj */;
+			containerPortal = C52FC2C313A2029D00A2D359 /* ParseKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D33494100E2963FD00406085;
 			remoteInfo = DemoApp;
 		};
-		D346E49810CE434A00BA0B15 /* PBXContainerItemProxy */ = {
+		C52FC2DD13A2029D00A2D359 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D346E48410CE434A00BA0B15 /* ParseKit.xcodeproj */;
+			containerPortal = C52FC2C313A2029D00A2D359 /* ParseKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D34185040E520D3F0081B0DC;
 			remoteInfo = DebugApp;
 		};
-		D346E49A10CE434A00BA0B15 /* PBXContainerItemProxy */ = {
+		C52FC2DF13A2029D00A2D359 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D346E48410CE434A00BA0B15 /* ParseKit.xcodeproj */;
+			containerPortal = C52FC2C313A2029D00A2D359 /* ParseKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D389F2030F196A7500558235;
 			remoteInfo = JSDemoApp;
 		};
-		D346E58810CE436000BA0B15 /* PBXContainerItemProxy */ = {
+		C52FC31513A202F400A2D359 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D346E58310CE436000BA0B15 /* UMEKit.xcodeproj */;
+			containerPortal = C52FC30513A202F400A2D359 /* PSMTabBarControl.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D1AC9740486D14A00FE50C9;
+			remoteInfo = PSMTabBarControl;
+		};
+		C52FC31713A202F400A2D359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C52FC30513A202F400A2D359 /* PSMTabBarControl.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A251BEA00959BB5B0058BC7F;
+			remoteInfo = TabBarControlDemo;
+		};
+		C52FC31913A202F400A2D359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C52FC30513A202F400A2D359 /* PSMTabBarControl.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53DF68FD067E5B5A0090B5B0;
+			remoteInfo = PSMTabBarControlFramework;
+		};
+		C52FC32113A2030100A2D359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C52FC31B13A2030100A2D359 /* TDAppKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = TDAppKit;
+		};
+		C52FC32313A2030100A2D359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C52FC31B13A2030100A2D359 /* TDAppKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D31CBFE910EFB9630013347D;
+			remoteInfo = ListViewDemoApp;
+		};
+		C52FC32513A2030100A2D359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C52FC31B13A2030100A2D359 /* TDAppKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D36E1F5B11703E8300110DBA;
+			remoteInfo = ComboFieldDemoApp;
+		};
+		C52FC33013A2030B00A2D359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C52FC32713A2030B00A2D359 /* UMEKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
 			remoteInfo = UMEKit;
 		};
-		D346E58A10CE436000BA0B15 /* PBXContainerItemProxy */ = {
+		C52FC33213A2030B00A2D359 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D346E58310CE436000BA0B15 /* UMEKit.xcodeproj */;
+			containerPortal = C52FC32713A2030B00A2D359 /* UMEKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D343406B10742B2000C31EFA;
 			remoteInfo = DemoApp;
 		};
-		D346E58E10CE437800BA0B15 /* PBXContainerItemProxy */ = {
+		C52FC4CF13A20A0200A2D359 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D346E48410CE434A00BA0B15 /* ParseKit.xcodeproj */;
+			containerPortal = C52FC2C313A2029D00A2D359 /* ParseKit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
 			remoteInfo = ParseKit;
 		};
-		D346E5D010CE452000BA0B15 /* PBXContainerItemProxy */ = {
+		C52FC4D113A20A0200A2D359 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D346E5CC10CE452000BA0B15 /* TwitterPlugIn.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8D5B49B6048680CD000E48DA;
-			remoteInfo = TwitterPlugIn;
-		};
-		D361101711EA6F7100DB7EFD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D15AC270486D014006FF6A4;
-			remoteInfo = Fluidium;
-		};
-		D36E1F6911703EA200110DBA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D31CC0C010EFCB590013347D /* TDAppKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D36E1F5B11703E8300110DBA;
-			remoteInfo = FooBarDemoApp;
-		};
-		D37E9AA211FBA13600147399 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D37E9A9A11FBA13600147399 /* AquaticPrime.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
-			remoteInfo = AquaticPrime;
-		};
-		D37E9AA411FBA13600147399 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D37E9A9A11FBA13600147399 /* AquaticPrime.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D9B64D7086DCB44006322F1;
-			remoteInfo = libAquaticPrime;
-		};
-		D37E9ABA11FBA19700147399 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D37E9A9A11FBA13600147399 /* AquaticPrime.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
-			remoteInfo = AquaticPrime;
-		};
-		D38422EF1102D39200605809 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D15AC270486D014006FF6A4;
-			remoteInfo = Fluidium;
-		};
-		D38422F11102D3A500605809 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D32E8C2310E593AB00445B4C /* TabsPlugIn.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
-			remoteInfo = TabsPlugIn;
-		};
-		D38422F31102D3A500605809 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D3D3766010E4091800203EB2 /* BrowsaPlugIn.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
-			remoteInfo = BrowsaPlugIn;
-		};
-		D38422F51102D3A500605809 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D346E5CC10CE452000BA0B15 /* TwitterPlugIn.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
-			remoteInfo = TwitterPlugIn;
-		};
-		D38423191102D51B00605809 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D38422EC1102D38B00605809;
-			remoteInfo = PlugIns;
-		};
-		D3C2E39311D7E9C600106E86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D328FC9410CC339E00BB363B /* PSMTabBarControl.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 53DF68FC067E5B5A0090B5B0;
-			remoteInfo = PSMTabBarControlFramework;
-		};
-		D3C2E39511D7E9C600106E86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D31CC0C010EFCB590013347D /* TDAppKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
-			remoteInfo = TDAppKit;
-		};
-		D3C2E39711D7E9C600106E86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D346E48410CE434A00BA0B15 /* ParseKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
-			remoteInfo = ParseKit;
-		};
-		D3C2E39911D7E9C600106E86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D346E58310CE436000BA0B15 /* UMEKit.xcodeproj */;
+			containerPortal = C52FC32713A2030B00A2D359 /* UMEKit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
 			remoteInfo = UMEKit;
 		};
-		D3C2E4ED11D7EF0B00106E86 /* PBXContainerItemProxy */ = {
+		C52FC4D313A20A0200A2D359 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D3C2E4DE11D7EF0B00106E86 /* Fake.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8D5B49B6048680CD000E48DA;
-			remoteInfo = FakePlugIn;
-		};
-		D3C2E4EF11D7EF1900106E86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D3C2E4DE11D7EF0B00106E86 /* Fake.xcodeproj */;
+			containerPortal = C52FC30513A202F400A2D359 /* PSMTabBarControl.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
-			remoteInfo = FakePlugIn;
+			remoteGlobalIDString = 53DF68FC067E5B5A0090B5B0;
+			remoteInfo = PSMTabBarControlFramework;
 		};
-		D3C2E4FB11D7EF9400106E86 /* PBXContainerItemProxy */ = {
+		C52FC4D513A20A0200A2D359 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+			containerPortal = C52FC31B13A2030100A2D359 /* TDAppKit.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = D3C2E4C811D7EEBE00106E86;
-			remoteInfo = "Fake PlugIns";
-		};
-		D3C2E4FD11D7EF9C00106E86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D3C2E39111D7E9C600106E86;
-			remoteInfo = Fake;
-		};
-		D3D3766410E4091800203EB2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D3D3766010E4091800203EB2 /* BrowsaPlugIn.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8D5B49B6048680CD000E48DA;
-			remoteInfo = BrowsaPlugIn;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = TDAppKit;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -816,13 +369,13 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				C52FC44413A2045300A2D359 /* UMEKit.framework in Copy Frameworks */,
+				C52FC44513A2045300A2D359 /* TDAppKit.framework in Copy Frameworks */,
+				C52FC44613A2045300A2D359 /* PSMTabBarControl.framework in Copy Frameworks */,
+				C52FC44213A2042A00A2D359 /* ParseKit.framework in Copy Frameworks */,
 				D30BC46610E187C10019816B /* Growl.framework in Copy Frameworks */,
 				D3189E9810F7000F00B6AA21 /* Sparkle.framework in Copy Frameworks */,
 				D3F941601102F3B900267DA0 /* ShortcutRecorder.framework in Copy Frameworks */,
-				D328007F10CC371E00BB363B /* PSMTabBarControl.framework in Copy Frameworks */,
-				D31CC10B10EFCCE60013347D /* TDAppKit.framework in Copy Frameworks */,
-				D346E59A10CE43E500BA0B15 /* ParseKit.framework in Copy Frameworks */,
-				D3414BC11103884000CCC986 /* UMEKit.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -849,47 +402,6 @@
 			name = "Copy Public Headers";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3C2E44C11D7E9C600106E86 /* Copy Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D3C2E44D11D7E9C600106E86 /* Growl.framework in Copy Frameworks */,
-				D3C2E44E11D7E9C600106E86 /* Sparkle.framework in Copy Frameworks */,
-				D3C2E44F11D7E9C600106E86 /* ShortcutRecorder.framework in Copy Frameworks */,
-				D3C2E45011D7E9C600106E86 /* PSMTabBarControl.framework in Copy Frameworks */,
-				D3C2E45111D7E9C600106E86 /* TDAppKit.framework in Copy Frameworks */,
-				D3C2E45211D7E9C600106E86 /* ParseKit.framework in Copy Frameworks */,
-				D3C2E45311D7E9C600106E86 /* UMEKit.framework in Copy Frameworks */,
-				D37E9AB611FBA15C00147399 /* AquaticPrime.framework in Copy Frameworks */,
-			);
-			name = "Copy Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3C2E46011D7E9C600106E86 /* Copy Public Headers */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = Contents/Headers/Fluidium;
-			dstSubfolderSpec = 1;
-			files = (
-				D3C2E46111D7E9C600106E86 /* FUApplication.h in Copy Public Headers */,
-				D3C2E46211D7E9C600106E86 /* FUUserDefaults.h in Copy Public Headers */,
-				D3C2E46311D7E9C600106E86 /* FUNotifications.h in Copy Public Headers */,
-				D3E645AD11FCBDD7008525FF /* FUDocumentController.h in Copy Public Headers */,
-				D3C2E46411D7E9C600106E86 /* FUDocument.h in Copy Public Headers */,
-				D3C2E46511D7E9C600106E86 /* FUWindowController.h in Copy Public Headers */,
-				D3C2E46611D7E9C600106E86 /* FUTabController.h in Copy Public Headers */,
-				D3C2E46711D7E9C600106E86 /* FUWebView.h in Copy Public Headers */,
-				D3C2E46811D7E9C600106E86 /* FUActivation.h in Copy Public Headers */,
-				D3C2E46911D7E9C600106E86 /* FUBookmarkController.h in Copy Public Headers */,
-				D3C2E46A11D7E9C600106E86 /* FUBookmark.h in Copy Public Headers */,
-				D3C2E46B11D7E9C600106E86 /* FUPlugIn.h in Copy Public Headers */,
-				D3C2E46C11D7E9C600106E86 /* FUPlugInAPI.h in Copy Public Headers */,
-			);
-			name = "Copy Public Headers";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -901,7 +413,13 @@
 		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		8D15AC370486D014006FF6A4 /* Fluidium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fluidium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D15AC370486D014006FF6A4 /* Talk.to.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Talk.to.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C52FC2C313A2029D00A2D359 /* ParseKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ParseKit.xcodeproj; path = lib/ParseKit/ParseKit.xcodeproj; sourceTree = "<group>"; };
+		C52FC30513A202F400A2D359 /* PSMTabBarControl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PSMTabBarControl.xcodeproj; path = lib/PSMTabBarControl/PSMTabBarControl.xcodeproj; sourceTree = "<group>"; };
+		C52FC31B13A2030100A2D359 /* TDAppKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TDAppKit.xcodeproj; path = lib/TDAppKit/TDAppKit.xcodeproj; sourceTree = "<group>"; };
+		C52FC32713A2030B00A2D359 /* UMEKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMEKit.xcodeproj; path = lib/UMEKit/UMEKit.xcodeproj; sourceTree = "<group>"; };
+		C5A895EA13A200B800EAC265 /* talkto-mac-icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "talkto-mac-icon.icns"; path = "res/img/talkto-mac-icon.icns"; sourceTree = "<group>"; };
+		C5A9FE6213829D9F00FE5EDD /* js-built */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "js-built"; path = "../../pwdesktop/out/js-built"; sourceTree = SOURCE_ROOT; };
 		D305193310C909E400AFF325 /* FUTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUTabController.h; path = include/Fluidium/FUTabController.h; sourceTree = "<group>"; };
 		D305193410C909E400AFF325 /* FUTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUTabController.m; path = src/FUTabController.m; sourceTree = "<group>"; };
 		D305199B10C978E300AFF325 /* NSString+FUAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+FUAdditions.h"; path = "src/NSString+FUAdditions.h"; sourceTree = "<group>"; };
@@ -939,12 +457,9 @@
 		D31C7B0811129A5B00563A4D /* FUHandlerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUHandlerController.h; path = src/FUHandlerController.h; sourceTree = "<group>"; };
 		D31C7B0911129A5B00563A4D /* FUHandlerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUHandlerController.m; path = src/FUHandlerController.m; sourceTree = "<group>"; };
 		D31C7B2711129C0E00563A4D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/FUHandlerPreferences.xib; sourceTree = "<group>"; };
-		D31CC0C010EFCB590013347D /* TDAppKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TDAppKit.xcodeproj; path = lib/TDAppKit/TDAppKit.xcodeproj; sourceTree = "<group>"; };
 		D32803F210CC7BFA00BB363B /* FUBookmarkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUBookmarkController.h; path = include/Fluidium/FUBookmarkController.h; sourceTree = "<group>"; };
 		D32803F310CC7BFA00BB363B /* FUBookmarkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUBookmarkController.m; path = src/FUBookmarkController.m; sourceTree = "<group>"; };
 		D328FB1210CB9E2600BB363B /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/FUBookmarkWindow.xib; sourceTree = "<group>"; };
-		D328FC9410CC339E00BB363B /* PSMTabBarControl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PSMTabBarControl.xcodeproj; path = lib/PSMTabBarControl/PSMTabBarControl.xcodeproj; sourceTree = "<group>"; };
-		D32E8C2310E593AB00445B4C /* TabsPlugIn.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TabsPlugIn.xcodeproj; path = ../PlugIns/TabsPlugIn/TabsPlugIn.xcodeproj; sourceTree = SOURCE_ROOT; };
 		D332221110C8C19500151693 /* FUDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUDocument.h; path = include/Fluidium/FUDocument.h; sourceTree = "<group>"; };
 		D332221210C8C19500151693 /* FUDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUDocument.m; path = src/FUDocument.m; sourceTree = "<group>"; };
 		D332221410C8C1A500151693 /* Fluidium_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fluidium_Prefix.pch; path = src/Fluidium_Prefix.pch; sourceTree = "<group>"; };
@@ -1007,9 +522,6 @@
 		D346E35D10CE1FFD00BA0B15 /* FUPlugInWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUPlugInWrapper.m; path = src/FUPlugInWrapper.m; sourceTree = "<group>"; };
 		D346E37A10CE241A00BA0B15 /* FUPlugInController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUPlugInController.h; path = src/FUPlugInController.h; sourceTree = "<group>"; };
 		D346E37B10CE241A00BA0B15 /* FUPlugInController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUPlugInController.m; path = src/FUPlugInController.m; sourceTree = "<group>"; };
-		D346E48410CE434A00BA0B15 /* ParseKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ParseKit.xcodeproj; path = lib/ParseKit/ParseKit.xcodeproj; sourceTree = "<group>"; };
-		D346E58310CE436000BA0B15 /* UMEKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMEKit.xcodeproj; path = lib/UMEKit/UMEKit.xcodeproj; sourceTree = "<group>"; };
-		D346E5CC10CE452000BA0B15 /* TwitterPlugIn.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TwitterPlugIn.xcodeproj; path = ../PlugIns/TwitterPlugIn/TwitterPlugIn.xcodeproj; sourceTree = SOURCE_ROOT; };
 		D346E67E10CE4D0C00BA0B15 /* FUPlugInPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUPlugInPreferences.h; path = src/FUPlugInPreferences.h; sourceTree = "<group>"; };
 		D346E67F10CE4D0C00BA0B15 /* FUPlugInPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUPlugInPreferences.m; path = src/FUPlugInPreferences.m; sourceTree = "<group>"; };
 		D346E6CE10CE4E4000BA0B15 /* FUBasePreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUBasePreferences.h; path = src/FUBasePreferences.h; sourceTree = "<group>"; };
@@ -1031,7 +543,6 @@
 		D34ACB8B11C1C2D300D8A417 /* combo_field_progress_indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = combo_field_progress_indicator.png; path = lib/TDAppKit/res/img/combo_field_progress_indicator.png; sourceTree = "<group>"; };
 		D34ACCD411C2AC0E00D8A417 /* TDComboField+FUAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TDComboField+FUAdditions.h"; path = "src/TDComboField+FUAdditions.h"; sourceTree = "<group>"; };
 		D34ACCD511C2AC0E00D8A417 /* TDComboField+FUAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TDComboField+FUAdditions.m"; path = "src/TDComboField+FUAdditions.m"; sourceTree = "<group>"; };
-		D34B5DDC10CF6E8A006E17C4 /* ShortcutRecorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ShortcutRecorder.framework; path = build/Debug/ShortcutRecorder.framework; sourceTree = "<group>"; };
 		D34B5E1B10CF6EF3006E17C4 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		D34B602710CF7477006E17C4 /* IconFamily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconFamily.h; sourceTree = "<group>"; };
 		D34B602810CF7477006E17C4 /* IconFamily.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconFamily.m; sourceTree = "<group>"; };
@@ -1080,14 +591,6 @@
 		D373ED70110BF68300ECE3BE /* FUBaseScriptCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUBaseScriptCommand.h; path = src/FUBaseScriptCommand.h; sourceTree = "<group>"; };
 		D373ED71110BF68300ECE3BE /* FUBaseScriptCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUBaseScriptCommand.m; path = src/FUBaseScriptCommand.m; sourceTree = "<group>"; };
 		D3778DFD10FF1F4900EEA25F /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/OAPreferencesWindow.xib; sourceTree = "<group>"; };
-		D37A8169120637F000E1178C /* AutoTyper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutoTyper.h; path = ../../fake/lib/AutoType/src/AutoTyper.h; sourceTree = SOURCE_ROOT; };
-		D37A816A120637F000E1178C /* AutoTyper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutoTyper.m; path = ../../fake/lib/AutoType/src/AutoTyper.m; sourceTree = SOURCE_ROOT; };
-		D37A816B120637F000E1178C /* AutoTypeCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutoTypeCode.h; path = ../../fake/lib/AutoType/src/AutoTypeCode.h; sourceTree = SOURCE_ROOT; };
-		D37A816C120637F000E1178C /* AutoTypeCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutoTypeCode.m; path = ../../fake/lib/AutoType/src/AutoTypeCode.m; sourceTree = SOURCE_ROOT; };
-		D37E9A4D11FB997300147399 /* FakeDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FakeDocumentController.h; path = ../../fake/src/FakeDocumentController.h; sourceTree = SOURCE_ROOT; };
-		D37E9A4E11FB997300147399 /* FakeDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FakeDocumentController.m; path = ../../fake/src/FakeDocumentController.m; sourceTree = SOURCE_ROOT; };
-		D37E9A9A11FBA13600147399 /* AquaticPrime.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AquaticPrime.xcodeproj; path = ../../fake/lib/AquaticPrime/AquaticPrime.xcodeproj; sourceTree = SOURCE_ROOT; };
-		D37E9AC011FBA21800147399 /* AquaticPrime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AquaticPrime.h; path = ../../fake/lib/AquaticPrime/AquaticPrime.h; sourceTree = SOURCE_ROOT; };
 		D38421491102C95900605809 /* FUDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUDocumentController.h; path = include/Fluidium/FUDocumentController.h; sourceTree = "<group>"; };
 		D386705011F96D9100248091 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		D3902A5111FFBB340040422F /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/FUPromptView.xib; sourceTree = "<group>"; };
@@ -1171,27 +674,12 @@
 		D3B8BD3C10E846C700271454 /* prefpane_icon_tabs.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = prefpane_icon_tabs.tiff; path = res/img/prefpanes/prefpane_icon_tabs.tiff; sourceTree = "<group>"; };
 		D3BD6EDD1209FEB200BE7395 /* FUDismissDialogCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUDismissDialogCommand.h; path = src/FUDismissDialogCommand.h; sourceTree = "<group>"; };
 		D3BD6EDE1209FEB200BE7395 /* FUDismissDialogCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUDismissDialogCommand.m; path = src/FUDismissDialogCommand.m; sourceTree = "<group>"; };
-		D3C2E35711D7E32E00106E86 /* Fake-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Fake-Info.plist"; path = "res/conf/Fake-Info.plist"; sourceTree = "<group>"; };
-		D3C2E47011D7E9C600106E86 /* Fake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fake.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3C2E4DE11D7EF0B00106E86 /* Fake.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Fake.xcodeproj; path = ../../fake/Fake.xcodeproj; sourceTree = SOURCE_ROOT; };
 		D3C2E56311D7F27600106E86 /* Fake-DefaultValues.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Fake-DefaultValues.plist"; path = "res/conf/Fake-DefaultValues.plist"; sourceTree = "<group>"; };
 		D3C2E56511D7F2D300106E86 /* Fake_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fake_Prefix.pch; path = src/Fake_Prefix.pch; sourceTree = "<group>"; };
-		D3C2E59E11D7F6CD00106E86 /* fake.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = fake.icns; path = ../../fake/res/img/fake.icns; sourceTree = "<group>"; };
 		D3D3731F10E3D32300203EB2 /* FUNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUNotifications.h; path = include/Fluidium/FUNotifications.h; sourceTree = "<group>"; };
 		D3D3732010E3D32300203EB2 /* FUNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUNotifications.m; path = src/FUNotifications.m; sourceTree = "<group>"; };
 		D3D3758010E3F44F00203EB2 /* WebIconDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebIconDatabase.h; path = src/WebIconDatabase.h; sourceTree = "<group>"; };
-		D3D3766010E4091800203EB2 /* BrowsaPlugIn.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BrowsaPlugIn.xcodeproj; path = ../PlugIns/BrowsaPlugIn/BrowsaPlugIn.xcodeproj; sourceTree = SOURCE_ROOT; };
 		D3D3D0081112D8CF000585EB /* prefpane_icon_handlers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prefpane_icon_handlers.png; path = res/img/prefpanes/prefpane_icon_handlers.png; sourceTree = "<group>"; };
-		D3D4853911E289E50030A659 /* FakeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FakeWindow.h; path = ../../fake/src/FakeWindow.h; sourceTree = SOURCE_ROOT; };
-		D3D4853A11E289E50030A659 /* FakeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FakeWindow.m; path = ../../fake/src/FakeWindow.m; sourceTree = SOURCE_ROOT; };
-		D3D4856E11E28B8A0030A659 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = ../../fake/English.lproj/FakeWindow.xib; sourceTree = SOURCE_ROOT; };
-		D3D4857111E28BA80030A659 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = ../../fake/English.lproj/FakeMainMenu.xib; sourceTree = SOURCE_ROOT; };
-		D3D4857311E28BCB0030A659 /* FakeDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FakeDocument.h; path = ../../fake/src/FakeDocument.h; sourceTree = SOURCE_ROOT; };
-		D3D4857411E28BCB0030A659 /* FakeDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FakeDocument.m; path = ../../fake/src/FakeDocument.m; sourceTree = SOURCE_ROOT; };
-		D3D486BA11E298180030A659 /* FakeConnectionContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FakeConnectionContentView.h; path = ../../fake/src/FakeConnectionContentView.h; sourceTree = SOURCE_ROOT; };
-		D3D486BB11E298180030A659 /* FakeConnectionContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FakeConnectionContentView.m; path = ../../fake/src/FakeConnectionContentView.m; sourceTree = SOURCE_ROOT; };
-		D3D488B511E2C64B0030A659 /* FakeWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FakeWindowController.h; path = ../../fake/src/FakeWindowController.h; sourceTree = SOURCE_ROOT; };
-		D3D488B611E2C64B0030A659 /* FakeWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FakeWindowController.m; path = ../../fake/src/FakeWindowController.m; sourceTree = SOURCE_ROOT; };
 		D3D647D111E584F100BCB75A /* DOMDocumentPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DOMDocumentPrivate.h; path = src/DOMDocumentPrivate.h; sourceTree = "<group>"; };
 		D3D80321111E3BDA0025650C /* FUSubmitFormCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUSubmitFormCommand.h; path = src/FUSubmitFormCommand.h; sourceTree = "<group>"; };
 		D3D80322111E3BDA0025650C /* FUSubmitFormCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUSubmitFormCommand.m; path = src/FUSubmitFormCommand.m; sourceTree = "<group>"; };
@@ -1240,11 +728,7 @@
 		D3EB8C1D117A58D4003C4A2E /* FUProgressComboBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUProgressComboBox.h; path = src/FUProgressComboBox.h; sourceTree = "<group>"; };
 		D3EB8C1E117A58D4003C4A2E /* FUProgressComboBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUProgressComboBox.m; path = src/FUProgressComboBox.m; sourceTree = "<group>"; };
 		D3F0C95D11EBC143002E2BA9 /* SecurityInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityInterface.framework; path = System/Library/Frameworks/SecurityInterface.framework; sourceTree = SDKROOT; };
-		D3F155BA11E8E801008F1626 /* fdoc.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = fdoc.icns; path = ../../fake/res/img/fdoc.icns; sourceTree = SOURCE_ROOT; };
-		D3F156D011E9113E008F1626 /* FakeTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FakeTabController.h; path = ../../fake/src/FakeTabController.h; sourceTree = SOURCE_ROOT; };
-		D3F156D111E9113E008F1626 /* FakeTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FakeTabController.m; path = ../../fake/src/FakeTabController.m; sourceTree = SOURCE_ROOT; };
 		D3F292ED10E7B32500CCB392 /* WebFrameViewPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebFrameViewPrivate.h; path = src/WebFrameViewPrivate.h; sourceTree = "<group>"; };
-		D3F48EC811D9A3A30083E8EA /* prefpane_icon_showall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prefpane_icon_showall.png; path = ../../fake/res/img/prefpane_icon_showall.png; sourceTree = "<group>"; };
 		D3F4C3D310C8C7A300E0B474 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
 		D3F4C53410C8CF4600E0B474 /* FUWindowToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUWindowToolbar.h; path = src/FUWindowToolbar.h; sourceTree = "<group>"; };
 		D3F4C53510C8CF4600E0B474 /* FUWindowToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUWindowToolbar.m; path = src/FUWindowToolbar.m; sourceTree = "<group>"; };
@@ -1296,6 +780,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C52FC44713A2045800A2D359 /* UMEKit.framework in Frameworks */,
+				C52FC44813A2045800A2D359 /* TDAppKit.framework in Frameworks */,
+				C52FC44913A2045800A2D359 /* PSMTabBarControl.framework in Frameworks */,
+				C52FC44313A2043E00A2D359 /* ParseKit.framework in Frameworks */,
 				D34B5E1C10CF6EF3006E17C4 /* Carbon.framework in Frameworks */,
 				D3D800EB111E187D0025650C /* CoreServices.framework in Frameworks */,
 				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
@@ -1306,32 +794,6 @@
 				D30BC44F10E187A40019816B /* Growl.framework in Frameworks */,
 				D3189E8F10F6FFFA00B6AA21 /* Sparkle.framework in Frameworks */,
 				D3F9415E1102F3A500267DA0 /* ShortcutRecorder.framework in Frameworks */,
-				D328FD5710CC33F500BB363B /* PSMTabBarControl.framework in Frameworks */,
-				D31CC0D410EFCB990013347D /* TDAppKit.framework in Frameworks */,
-				D346E71210CE516800BA0B15 /* ParseKit.framework in Frameworks */,
-				D3414BD81103889B00CCC986 /* UMEKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3C2E45411D7E9C600106E86 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3C2E45511D7E9C600106E86 /* Carbon.framework in Frameworks */,
-				D3C2E45611D7E9C600106E86 /* CoreServices.framework in Frameworks */,
-				D3C2E45711D7E9C600106E86 /* Cocoa.framework in Frameworks */,
-				D3C2E45811D7E9C600106E86 /* WebKit.framework in Frameworks */,
-				D362A24D11EC1379004FC3B0 /* Security.framework in Frameworks */,
-				D3F0C95E11EBC143002E2BA9 /* SecurityInterface.framework in Frameworks */,
-				D386705E11F96DA900248091 /* JavaScriptCore.framework in Frameworks */,
-				D3C2E45911D7E9C600106E86 /* Growl.framework in Frameworks */,
-				D3C2E45A11D7E9C600106E86 /* Sparkle.framework in Frameworks */,
-				D3C2E45B11D7E9C600106E86 /* ShortcutRecorder.framework in Frameworks */,
-				D3C2E45C11D7E9C600106E86 /* PSMTabBarControl.framework in Frameworks */,
-				D3C2E45D11D7E9C600106E86 /* TDAppKit.framework in Frameworks */,
-				D3C2E45E11D7E9C600106E86 /* ParseKit.framework in Frameworks */,
-				D3C2E45F11D7E9C600106E86 /* UMEKit.framework in Frameworks */,
-				D37E9AB711FBA16E00147399 /* AquaticPrime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1368,9 +830,7 @@
 		19C28FB0FE9D524F11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D15AC370486D014006FF6A4 /* Fluidium.app */,
-				D34B5DDC10CF6E8A006E17C4 /* ShortcutRecorder.framework */,
-				D3C2E47011D7E9C600106E86 /* Fake.app */,
+				8D15AC370486D014006FF6A4 /* Talk.to.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1378,15 +838,12 @@
 		2A37F4AAFDCFA73011CA2CEA /* FluidApp */ = {
 			isa = PBXGroup;
 			children = (
-				D328FC9410CC339E00BB363B /* PSMTabBarControl.xcodeproj */,
-				D31CC0C010EFCB590013347D /* TDAppKit.xcodeproj */,
-				D346E48410CE434A00BA0B15 /* ParseKit.xcodeproj */,
-				D346E58310CE436000BA0B15 /* UMEKit.xcodeproj */,
-				D3D3766010E4091800203EB2 /* BrowsaPlugIn.xcodeproj */,
-				D346E5CC10CE452000BA0B15 /* TwitterPlugIn.xcodeproj */,
-				D32E8C2310E593AB00445B4C /* TabsPlugIn.xcodeproj */,
+				C52FC32713A2030B00A2D359 /* UMEKit.xcodeproj */,
+				C52FC31B13A2030100A2D359 /* TDAppKit.xcodeproj */,
+				C52FC30513A202F400A2D359 /* PSMTabBarControl.xcodeproj */,
+				C52FC2C313A2029D00A2D359 /* ParseKit.xcodeproj */,
+				C5A9FE6213829D9F00FE5EDD /* js-built */,
 				2A37F4ABFDCFA73011CA2CEA /* Fluidium Source */,
-				D3C2E36311D7E41B00106E86 /* Fake Source */,
 				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
 				2A37F4B8FDCFA73011CA2CEA /* Resources */,
 				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
@@ -1462,6 +919,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C52FC2C413A2029D00A2D359 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C52FC2D413A2029D00A2D359 /* ParseKit.framework */,
+				C52FC2D613A2029D00A2D359 /* JSParseKit.framework */,
+				C52FC2D813A2029D00A2D359 /* parsekit.a */,
+				C52FC2DA13A2029D00A2D359 /* Tests.octest */,
+				C52FC2DC13A2029D00A2D359 /* DemoApp.app */,
+				C52FC2DE13A2029D00A2D359 /* DebugApp.app */,
+				C52FC2E013A2029D00A2D359 /* JSDemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C52FC30613A202F400A2D359 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C52FC31613A202F400A2D359 /* PSMTabBarControl.palette */,
+				C52FC31813A202F400A2D359 /* TabBarControlDemo.app */,
+				C52FC31A13A202F400A2D359 /* PSMTabBarControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C52FC31C13A2030100A2D359 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C52FC32213A2030100A2D359 /* TDAppKit.framework */,
+				C52FC32413A2030100A2D359 /* ListViewDemoApp.app */,
+				C52FC32613A2030100A2D359 /* FooBarDemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C52FC32813A2030B00A2D359 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C52FC33113A2030B00A2D359 /* UMEKit.framework */,
+				C52FC33313A2030B00A2D359 /* DemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D30BC47210E188760019816B /* JavaScript Bridge */ = {
 			isa = PBXGroup;
 			children = (
@@ -1501,34 +1001,6 @@
 				D31C7B0911129A5B00563A4D /* FUHandlerController.m */,
 			);
 			name = Handlers;
-			sourceTree = "<group>";
-		};
-		D31CC0C110EFCB590013347D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D31CC0CA10EFCB590013347D /* TDAppKit.framework */,
-				D31CC0CC10EFCB590013347D /* ListViewDemoApp.app */,
-				D36E1F6A11703EA200110DBA /* FooBarDemoApp.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D328FC9510CC339E00BB363B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D328FC9F10CC339F00BB363B /* PSMTabBarControl.palette */,
-				D328FCA110CC339F00BB363B /* TabBarControlDemo.app */,
-				D328FCA310CC339F00BB363B /* PSMTabBarControl.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D32E8C2410E593AB00445B4C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D32E8C2810E593AB00445B4C /* Tabs.fluidplugin */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D332221710C8C1EA00151693 /* Conf */ = {
@@ -1631,37 +1103,6 @@
 			name = PlugIns;
 			sourceTree = "<group>";
 		};
-		D346E48510CE434A00BA0B15 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D346E48F10CE434A00BA0B15 /* ParseKit.framework */,
-				D346E49110CE434A00BA0B15 /* JSParseKit.framework */,
-				D346E49310CE434A00BA0B15 /* libparsekit.a */,
-				D346E49510CE434A00BA0B15 /* Tests.octest */,
-				D346E49710CE434A00BA0B15 /* DemoApp.app */,
-				D346E49910CE434A00BA0B15 /* DebugApp.app */,
-				D346E49B10CE434A00BA0B15 /* JSDemoApp.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D346E58410CE436000BA0B15 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D346E58910CE436000BA0B15 /* UMEKit.framework */,
-				D346E58B10CE436000BA0B15 /* DemoApp.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D346E5CD10CE452000BA0B15 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D346E5D110CE452000BA0B15 /* Twitter.fluidplugin */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		D346E68110CE4D0F00BA0B15 /* Preferences */ = {
 			isa = PBXGroup;
 			children = (
@@ -1716,7 +1157,6 @@
 		D346E8A910CEBF3200BA0B15 /* Preference Panes */ = {
 			isa = PBXGroup;
 			children = (
-				D3F48EC811D9A3A30083E8EA /* prefpane_icon_showall.png */,
 				D346E8BF10CEC02100BA0B15 /* prefpane_icon_showall.png */,
 				D34B610010CF92B7006E17C4 /* prefpane_icon_appearance.png */,
 				D3AF877E10CFA31400C601A3 /* prefpane_icon_behavior.png */,
@@ -1751,26 +1191,6 @@
 				D35CC20110D411FA00DA1898 /* FUUserAgentWindowController.m */,
 			);
 			name = UserAgent;
-			sourceTree = "<group>";
-		};
-		D37A8170120637F400E1178C /* AutoType */ = {
-			isa = PBXGroup;
-			children = (
-				D37A8169120637F000E1178C /* AutoTyper.h */,
-				D37A816A120637F000E1178C /* AutoTyper.m */,
-				D37A816B120637F000E1178C /* AutoTypeCode.h */,
-				D37A816C120637F000E1178C /* AutoTypeCode.m */,
-			);
-			name = AutoType;
-			sourceTree = "<group>";
-		};
-		D37E9A9B11FBA13600147399 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D37E9AA311FBA13600147399 /* AquaticPrime.framework */,
-				D37E9AA511FBA13600147399 /* libAquaticPrime.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D3A3268610FEFF6E00032B66 /* OAPreferences */ = {
@@ -1915,48 +1335,6 @@
 				D3ADFB121104E2640064C070 /* FUZoomOutCommand.m */,
 			);
 			name = "Script Action Commands";
-			sourceTree = "<group>";
-		};
-		D3C2E36311D7E41B00106E86 /* Fake Source */ = {
-			isa = PBXGroup;
-			children = (
-				D3C2E4DE11D7EF0B00106E86 /* Fake.xcodeproj */,
-				D37E9A9A11FBA13600147399 /* AquaticPrime.xcodeproj */,
-				D37A8170120637F400E1178C /* AutoType */,
-				D3C2E35711D7E32E00106E86 /* Fake-Info.plist */,
-				D37E9AC011FBA21800147399 /* AquaticPrime.h */,
-				D37E9A4D11FB997300147399 /* FakeDocumentController.h */,
-				D37E9A4E11FB997300147399 /* FakeDocumentController.m */,
-				D3D4857311E28BCB0030A659 /* FakeDocument.h */,
-				D3D4857411E28BCB0030A659 /* FakeDocument.m */,
-				D3D488B511E2C64B0030A659 /* FakeWindowController.h */,
-				D3D488B611E2C64B0030A659 /* FakeWindowController.m */,
-				D3F156D011E9113E008F1626 /* FakeTabController.h */,
-				D3F156D111E9113E008F1626 /* FakeTabController.m */,
-				D3D4853911E289E50030A659 /* FakeWindow.h */,
-				D3D4853A11E289E50030A659 /* FakeWindow.m */,
-				D3D486BA11E298180030A659 /* FakeConnectionContentView.h */,
-				D3D486BB11E298180030A659 /* FakeConnectionContentView.m */,
-				D3D4857011E28BA80030A659 /* FakeMainMenu.xib */,
-				D3D4856D11E28B8A0030A659 /* FakeWindow.xib */,
-			);
-			name = "Fake Source";
-			sourceTree = "<group>";
-		};
-		D3C2E4DF11D7EF0B00106E86 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D3C2E4EE11D7EF0B00106E86 /* Fake.fluidplugin */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D3D3766110E4091800203EB2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D3D3766510E4091800203EB2 /* Browsa.fluidplugin */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D3DB025710D616D30057D70C /* Misc */ = {
@@ -2138,8 +1516,7 @@
 		D3F4C68610C8DC4D00E0B474 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				D3F155BA11E8E801008F1626 /* fdoc.icns */,
-				D3C2E59E11D7F6CD00106E86 /* fake.icns */,
+				C5A895EA13A200B800EAC265 /* talkto-mac-icon.icns */,
 				D3393B3E10D5B2C9000FC7C1 /* appl.icns */,
 				D34ACB8B11C1C2D300D8A417 /* combo_field_progress_indicator.png */,
 				D33E6E3910D0A9BA00D76BBB /* location_field_progress_indicator.png */,
@@ -2169,54 +1546,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D15AC270486D014006FF6A4 /* Fluidium */ = {
+		8D15AC270486D014006FF6A4 /* Talk.to */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Fluidium" */;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Talk.to" */;
 			buildPhases = (
 				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
 				8D15AC2B0486D014006FF6A4 /* Resources */,
 				D328FFC510CC370700BB363B /* Copy Frameworks */,
-				8D15AC330486D014006FF6A4 /* Frameworks */,
 				D38420C71102BE9E00605809 /* Copy Public Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D328FF5010CC340C00BB363B /* PBXTargetDependency */,
-				D31CC0CE10EFCB770013347D /* PBXTargetDependency */,
-				D346E58F10CE437800BA0B15 /* PBXTargetDependency */,
-				D3414BC01103883100CCC986 /* PBXTargetDependency */,
+				C52FC4D013A20A0200A2D359 /* PBXTargetDependency */,
+				C52FC4D213A20A0200A2D359 /* PBXTargetDependency */,
+				C52FC4D413A20A0200A2D359 /* PBXTargetDependency */,
+				C52FC4D613A20A0200A2D359 /* PBXTargetDependency */,
 			);
-			name = Fluidium;
+			name = Talk.to;
 			productInstallPath = "$(HOME)/Applications";
 			productName = FluidApp;
-			productReference = 8D15AC370486D014006FF6A4 /* Fluidium.app */;
-			productType = "com.apple.product-type.application";
-		};
-		D3C2E39111D7E9C600106E86 /* Fake */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D3C2E46D11D7E9C600106E86 /* Build configuration list for PBXNativeTarget "Fake" */;
-			buildPhases = (
-				D3C2E39A11D7E9C600106E86 /* Sources */,
-				D3C2E41C11D7E9C600106E86 /* Resources */,
-				D3C2E44C11D7E9C600106E86 /* Copy Frameworks */,
-				D3C2E45411D7E9C600106E86 /* Frameworks */,
-				D3C2E46011D7E9C600106E86 /* Copy Public Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D3C2E39211D7E9C600106E86 /* PBXTargetDependency */,
-				D3C2E39411D7E9C600106E86 /* PBXTargetDependency */,
-				D3C2E39611D7E9C600106E86 /* PBXTargetDependency */,
-				D3C2E39811D7E9C600106E86 /* PBXTargetDependency */,
-				D37E9ABB11FBA19700147399 /* PBXTargetDependency */,
-				D361101811EA6F7100DB7EFD /* PBXTargetDependency */,
-			);
-			name = Fake;
-			productInstallPath = "$(HOME)/Applications";
-			productName = FluidApp;
-			productReference = D3C2E47011D7E9C600106E86 /* Fake.app */;
+			productReference = 8D15AC370486D014006FF6A4 /* Talk.to.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -2238,201 +1589,133 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = D37E9A9B11FBA13600147399 /* Products */;
-					ProjectRef = D37E9A9A11FBA13600147399 /* AquaticPrime.xcodeproj */;
+					ProductGroup = C52FC2C413A2029D00A2D359 /* Products */;
+					ProjectRef = C52FC2C313A2029D00A2D359 /* ParseKit.xcodeproj */;
 				},
 				{
-					ProductGroup = D3D3766110E4091800203EB2 /* Products */;
-					ProjectRef = D3D3766010E4091800203EB2 /* BrowsaPlugIn.xcodeproj */;
+					ProductGroup = C52FC30613A202F400A2D359 /* Products */;
+					ProjectRef = C52FC30513A202F400A2D359 /* PSMTabBarControl.xcodeproj */;
 				},
 				{
-					ProductGroup = D3C2E4DF11D7EF0B00106E86 /* Products */;
-					ProjectRef = D3C2E4DE11D7EF0B00106E86 /* Fake.xcodeproj */;
+					ProductGroup = C52FC31C13A2030100A2D359 /* Products */;
+					ProjectRef = C52FC31B13A2030100A2D359 /* TDAppKit.xcodeproj */;
 				},
 				{
-					ProductGroup = D346E48510CE434A00BA0B15 /* Products */;
-					ProjectRef = D346E48410CE434A00BA0B15 /* ParseKit.xcodeproj */;
-				},
-				{
-					ProductGroup = D328FC9510CC339E00BB363B /* Products */;
-					ProjectRef = D328FC9410CC339E00BB363B /* PSMTabBarControl.xcodeproj */;
-				},
-				{
-					ProductGroup = D32E8C2410E593AB00445B4C /* Products */;
-					ProjectRef = D32E8C2310E593AB00445B4C /* TabsPlugIn.xcodeproj */;
-				},
-				{
-					ProductGroup = D31CC0C110EFCB590013347D /* Products */;
-					ProjectRef = D31CC0C010EFCB590013347D /* TDAppKit.xcodeproj */;
-				},
-				{
-					ProductGroup = D346E5CD10CE452000BA0B15 /* Products */;
-					ProjectRef = D346E5CC10CE452000BA0B15 /* TwitterPlugIn.xcodeproj */;
-				},
-				{
-					ProductGroup = D346E58410CE436000BA0B15 /* Products */;
-					ProjectRef = D346E58310CE436000BA0B15 /* UMEKit.xcodeproj */;
+					ProductGroup = C52FC32813A2030B00A2D359 /* Products */;
+					ProjectRef = C52FC32713A2030B00A2D359 /* UMEKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				8D15AC270486D014006FF6A4 /* Fluidium */,
-				D38422EC1102D38B00605809 /* Fluidium PlugIns */,
-				D38423141102D50D00605809 /* Fluidium+PlugIns */,
-				D33B1DBF1116AF6F00F754AD /* Custom Browser */,
-				D3C2E39111D7E9C600106E86 /* Fake */,
-				D3C2E4C811D7EEBE00106E86 /* Fake PlugIns */,
-				D3C2E4F511D7EF7A00106E86 /* Fake+PlugIns */,
+				8D15AC270486D014006FF6A4 /* Talk.to */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		D31CC0CA10EFCB590013347D /* TDAppKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = TDAppKit.framework;
-			remoteRef = D31CC0C910EFCB590013347D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D31CC0CC10EFCB590013347D /* ListViewDemoApp.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = ListViewDemoApp.app;
-			remoteRef = D31CC0CB10EFCB590013347D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D328FC9F10CC339F00BB363B /* PSMTabBarControl.palette */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = PSMTabBarControl.palette;
-			remoteRef = D328FC9E10CC339F00BB363B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D328FCA110CC339F00BB363B /* TabBarControlDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = TabBarControlDemo.app;
-			remoteRef = D328FCA010CC339F00BB363B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D328FCA310CC339F00BB363B /* PSMTabBarControl.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = PSMTabBarControl.framework;
-			remoteRef = D328FCA210CC339F00BB363B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D32E8C2810E593AB00445B4C /* Tabs.fluidplugin */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = Tabs.fluidplugin;
-			remoteRef = D32E8C2710E593AB00445B4C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D346E48F10CE434A00BA0B15 /* ParseKit.framework */ = {
+		C52FC2D413A2029D00A2D359 /* ParseKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = ParseKit.framework;
-			remoteRef = D346E48E10CE434A00BA0B15 /* PBXContainerItemProxy */;
+			remoteRef = C52FC2D313A2029D00A2D359 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D346E49110CE434A00BA0B15 /* JSParseKit.framework */ = {
+		C52FC2D613A2029D00A2D359 /* JSParseKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = JSParseKit.framework;
-			remoteRef = D346E49010CE434A00BA0B15 /* PBXContainerItemProxy */;
+			remoteRef = C52FC2D513A2029D00A2D359 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D346E49310CE434A00BA0B15 /* libparsekit.a */ = {
+		C52FC2D813A2029D00A2D359 /* parsekit.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libparsekit.a;
-			remoteRef = D346E49210CE434A00BA0B15 /* PBXContainerItemProxy */;
+			path = parsekit.a;
+			remoteRef = C52FC2D713A2029D00A2D359 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D346E49510CE434A00BA0B15 /* Tests.octest */ = {
+		C52FC2DA13A2029D00A2D359 /* Tests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = Tests.octest;
-			remoteRef = D346E49410CE434A00BA0B15 /* PBXContainerItemProxy */;
+			remoteRef = C52FC2D913A2029D00A2D359 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D346E49710CE434A00BA0B15 /* DemoApp.app */ = {
+		C52FC2DC13A2029D00A2D359 /* DemoApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = DemoApp.app;
-			remoteRef = D346E49610CE434A00BA0B15 /* PBXContainerItemProxy */;
+			remoteRef = C52FC2DB13A2029D00A2D359 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D346E49910CE434A00BA0B15 /* DebugApp.app */ = {
+		C52FC2DE13A2029D00A2D359 /* DebugApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = DebugApp.app;
-			remoteRef = D346E49810CE434A00BA0B15 /* PBXContainerItemProxy */;
+			remoteRef = C52FC2DD13A2029D00A2D359 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D346E49B10CE434A00BA0B15 /* JSDemoApp.app */ = {
+		C52FC2E013A2029D00A2D359 /* JSDemoApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = JSDemoApp.app;
-			remoteRef = D346E49A10CE434A00BA0B15 /* PBXContainerItemProxy */;
+			remoteRef = C52FC2DF13A2029D00A2D359 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D346E58910CE436000BA0B15 /* UMEKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = UMEKit.framework;
-			remoteRef = D346E58810CE436000BA0B15 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D346E58B10CE436000BA0B15 /* DemoApp.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = DemoApp.app;
-			remoteRef = D346E58A10CE436000BA0B15 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D346E5D110CE452000BA0B15 /* Twitter.fluidplugin */ = {
+		C52FC31613A202F400A2D359 /* PSMTabBarControl.palette */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = Twitter.fluidplugin;
-			remoteRef = D346E5D010CE452000BA0B15 /* PBXContainerItemProxy */;
+			path = PSMTabBarControl.palette;
+			remoteRef = C52FC31513A202F400A2D359 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D36E1F6A11703EA200110DBA /* FooBarDemoApp.app */ = {
+		C52FC31813A202F400A2D359 /* TabBarControlDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TabBarControlDemo.app;
+			remoteRef = C52FC31713A202F400A2D359 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C52FC31A13A202F400A2D359 /* PSMTabBarControl.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PSMTabBarControl.framework;
+			remoteRef = C52FC31913A202F400A2D359 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C52FC32213A2030100A2D359 /* TDAppKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TDAppKit.framework;
+			remoteRef = C52FC32113A2030100A2D359 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C52FC32413A2030100A2D359 /* ListViewDemoApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ListViewDemoApp.app;
+			remoteRef = C52FC32313A2030100A2D359 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C52FC32613A2030100A2D359 /* FooBarDemoApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = FooBarDemoApp.app;
-			remoteRef = D36E1F6911703EA200110DBA /* PBXContainerItemProxy */;
+			remoteRef = C52FC32513A2030100A2D359 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D37E9AA311FBA13600147399 /* AquaticPrime.framework */ = {
+		C52FC33113A2030B00A2D359 /* UMEKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = AquaticPrime.framework;
-			remoteRef = D37E9AA211FBA13600147399 /* PBXContainerItemProxy */;
+			path = UMEKit.framework;
+			remoteRef = C52FC33013A2030B00A2D359 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D37E9AA511FBA13600147399 /* libAquaticPrime.a */ = {
+		C52FC33313A2030B00A2D359 /* DemoApp.app */ = {
 			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libAquaticPrime.a;
-			remoteRef = D37E9AA411FBA13600147399 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D3C2E4EE11D7EF0B00106E86 /* Fake.fluidplugin */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = Fake.fluidplugin;
-			remoteRef = D3C2E4ED11D7EF0B00106E86 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D3D3766510E4091800203EB2 /* Browsa.fluidplugin */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = Browsa.fluidplugin;
-			remoteRef = D3D3766410E4091800203EB2 /* PBXContainerItemProxy */;
+			fileType = wrapper.application;
+			path = DemoApp.app;
+			remoteRef = C52FC33213A2030B00A2D359 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -2471,7 +1754,6 @@
 				D30BC47010E188260019816B /* Growl Registration Ticket.growlRegDict in Resources */,
 				D33E70B910D0F1E800D76BBB /* default.css in Resources */,
 				D33E70BA10D0F1E800D76BBB /* LoadFailed.html in Resources */,
-				D3393B3F10D5B2C9000FC7C1 /* appl.icns in Resources */,
 				D346E8C010CEC02100BA0B15 /* prefpane_icon_showall.png in Resources */,
 				D34B610110CF92B7006E17C4 /* prefpane_icon_appearance.png in Resources */,
 				D3AF877F10CFA31400C601A3 /* prefpane_icon_behavior.png in Resources */,
@@ -2490,151 +1772,12 @@
 				D3D3D0091112D8CF000585EB /* prefpane_icon_handlers.png in Resources */,
 				D34ACB8C11C1C2D300D8A417 /* combo_field_progress_indicator.png in Resources */,
 				D3902A5311FFBB340040422F /* FUPromptView.xib in Resources */,
-				F12B745013387B93000AA336 /* index.html in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3C2E41C11D7E9C600106E86 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3C2E41D11D7E9C600106E86 /* Credits.rtf in Resources */,
-				D3C2E41E11D7E9C600106E86 /* InfoPlist.strings in Resources */,
-				D3D4857211E28BA80030A659 /* FakeMainMenu.xib in Resources */,
-				D3D4885311E2A6420030A659 /* FakeWindow.xib in Resources */,
-				D3C2E42111D7E9C600106E86 /* OAPreferencesWindow.xib in Resources */,
-				D3C2E42211D7E9C600106E86 /* FUDownloadWindow.xib in Resources */,
-				D3C2E42311D7E9C600106E86 /* FUViewSourceWindow.xib in Resources */,
-				D3C2E42411D7E9C600106E86 /* FUUserAgentWindow.xib in Resources */,
-				D3C2E42511D7E9C600106E86 /* FUBookmarkWindow.xib in Resources */,
-				D3C2E42611D7E9C600106E86 /* FUGeneralPreferences.xib in Resources */,
-				D3C2E42711D7E9C600106E86 /* FUAppearancePreferences.xib in Resources */,
-				D3C2E42811D7E9C600106E86 /* FUBehaviorPreferences.xib in Resources */,
-				D3C2E42911D7E9C600106E86 /* FUTabsPreferences.xib in Resources */,
-				D3C2E42A11D7E9C600106E86 /* FUSecurityPreferences.xib in Resources */,
-				D3C2E42B11D7E9C600106E86 /* FUShortcutPreferences.xib in Resources */,
-				D3C2E42C11D7E9C600106E86 /* FUUpdatePreferences.xib in Resources */,
-				D3C2E42D11D7E9C600106E86 /* FUUserthingWindow.xib in Resources */,
-				D3C2E42E11D7E9C600106E86 /* FUUserthingView.xib in Resources */,
-				D3C2E43111D7E9C600106E86 /* FUPlugInPreferences.xib in Resources */,
-				D3C2E43211D7E9C600106E86 /* Fluidium.sdef in Resources */,
-				D3C2E56411D7F27600106E86 /* Fake-DefaultValues.plist in Resources */,
-				D3C2E43411D7E9C600106E86 /* Shortcuts.plist in Resources */,
-				D3C2E43511D7E9C600106E86 /* SpecialCases.plist in Resources */,
-				D3C2E43611D7E9C600106E86 /* UserAgentStrings.plist in Resources */,
-				D3C2E43711D7E9C600106E86 /* Growl Registration Ticket.growlRegDict in Resources */,
-				D3A3590B11E2391300EFEE29 /* fake_dsa_pub.pem in Resources */,
-				D3C2E43811D7E9C600106E86 /* default.css in Resources */,
-				D3C2E43911D7E9C600106E86 /* LoadFailed.html in Resources */,
-				D3C2E59F11D7F6CD00106E86 /* fake.icns in Resources */,
-				D3F155BB11E8E801008F1626 /* fdoc.icns in Resources */,
-				D3C2E43C11D7E9C600106E86 /* prefpane_icon_appearance.png in Resources */,
-				D3C2E43D11D7E9C600106E86 /* prefpane_icon_behavior.png in Resources */,
-				D3C2E43E11D7E9C600106E86 /* prefpane_icon_security.png in Resources */,
-				D3C2E43F11D7E9C600106E86 /* prefpane_icon_shortcuts.png in Resources */,
-				D3C2E44011D7E9C600106E86 /* prefpane_icon_update.png in Resources */,
-				D3C2E44111D7E9C600106E86 /* prefpane_icon_plugins.png in Resources */,
-				D3C2E44211D7E9C600106E86 /* toolbar_button_home.png in Resources */,
-				D3C2E44311D7E9C600106E86 /* location_field_progress_indicator.png in Resources */,
-				D3C2E44411D7E9C600106E86 /* prefpane_icon_tabs.tiff in Resources */,
-				D3F48EC911D9A3A30083E8EA /* prefpane_icon_showall.png in Resources */,
-				D3C2E44511D7E9C600106E86 /* OAPreferencesNextButton.png in Resources */,
-				D3C2E44611D7E9C600106E86 /* OAPreferencesPreviousButton.png in Resources */,
-				D3C2E44711D7E9C600106E86 /* OAHelpDownIcon.png in Resources */,
-				D3C2E44811D7E9C600106E86 /* OAHelpIcon.png in Resources */,
-				D3C2E44B11D7E9C600106E86 /* combo_field_progress_indicator.png in Resources */,
-				D3902A5211FFBB340040422F /* FUPromptView.xib in Resources */,
+				C5A9001B13829D9F00FE5EDD /* js-built in Resources */,
+				C5A895EB13A200B800EAC265 /* talkto-mac-icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		D33B1DBE1116AF6F00F754AD /* Edit Info.plist */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Edit Info.plist";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /usr/bin/perl;
-			shellScript = "#\n# Update App name/bundle id/version/appcast URL in Info.plist.\n#\n\nuse Foundation;\n\n$appName = \"Cruz\";\n$bundleID = \"com.cruzapp.Cruz\";\n$version = \"0.4.1\";\n$appCastURL = \"http://cruzapp.com/appcast/cruz.rss\";\n\n$path = $ENV{'TARGET_BUILD_DIR'} . \"/\" . $appName . \".app/Contents/Info.plist\";\n$plist = NSMutableDictionary->dictionaryWithContentsOfFile_($path);\n\nif ($plist and $$plist) {\n\t$plist->setObject_forKey_($bundleID, \"CFBundleIdentifier\");\n\t$plist->setObject_forKey_($version, \"CFBundleShortVersionString\");\n\t$plist->setObject_forKey_($version, \"CFBundleVersion\");\n\t$plist->setObject_forKey_($appName, \"CFBundleExecutable\");\n\t$plist->setObject_forKey_($appName, \"CFBundleName\");\n\t$plist->setObject_forKey_($appCastURL, \"SUFeedURL\");\n\n     $bundleTypes = NSMutableArray->arrayWithArray_($plist->objectForKey_(\"CFBundleURLTypes\"));\n\t$d = NSMutableDictionary->dictionaryWithDictionary_($bundleTypes->objectAtIndex_(0));\n\t$d->setValue_forKey_($bundleID, \"CFBundleURLName\");\n\t$bundleTypes->replaceObjectAtIndex_withObject_(0, $d);\n\t$plist->setObject_forKey_($bundleTypes, \"CFBundleURLTypes\");\n\n\t$plist->writeToFile_atomically_($path, \"0\");\n}\n";
-		};
-		D33B1DD81116B23E00F754AD /* Copy .app */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy .app";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "rm -rf \"${TARGET_BUILD_DIR}/Cruz.app\"\ncp -pR \"${TARGET_BUILD_DIR}/Fluidium.app\" \"${TARGET_BUILD_DIR}/Cruz.app\"\nmv \"${TARGET_BUILD_DIR}/Cruz.app/Contents/MacOS/Fluidium\" \"${TARGET_BUILD_DIR}/Cruz.app/Contents/MacOS/Cruz\"\ncp -pR \"res/img/appl.icns\" \"${TARGET_BUILD_DIR}/Cruz.app/Contents/Resources\"\n";
-		};
-		D33B1EDA1116C87600F754AD /* Edit DefaultValues.plist */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Edit DefaultValues.plist";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /usr/bin/perl;
-			shellScript = "#\n# Update some default preferences in DefaultValues.plist\n#\n\nuse Foundation;\n\n$appName = \"Cruz\";\n\n$path = $ENV{'TARGET_BUILD_DIR'} . \"/\" . $appName . \".app/Contents/Resources/DefaultValues.plist\";\n$plist = NSMutableDictionary->dictionaryWithContentsOfFile_($path);\n\nif ($plist and $$plist) {\n\t$plugins = NSArray->arrayWithObject_(\"com.fluidapp.TabsPlugIn\");\n\t$plist->setObject_forKey_($plugins, \"FUVisiblePlugInIdentifiers\");\n\t$plist->setObject_forKey_(\"1\", \"FUShowVisiblePlugInsInNewWindows\");\n\t$plist->setObject_forKey_(\"1\", \"FUTabBarHiddenAlways\");\n\t$plist->setObject_forKey_(\"1\", \"FUBookmarkBarShown\");\n\t\n\t$plist->writeToFile_atomically_($path, \"0\");\n}";
-		};
-		D33B1F821117F2ED00F754AD /* Reveal In Finder */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Reveal In Finder";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "open \"${TARGET_BUILD_DIR}\"\n";
-		};
-		D38422F91102D3BC00605809 /* Copy PlugIns */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy PlugIns";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "cp -pR \"../PlugIns/BrowsaPlugIn/build/${BUILD_STYLE}/Browsa.fluidplugin\" \"${TARGET_BUILD_DIR}/Fluidium.app/Contents/PlugIns\"\ncp -pR \"../PlugIns/TwitterPlugIn/build/${BUILD_STYLE}/Twitter.fluidplugin\" \"${TARGET_BUILD_DIR}/Fluidium.app/Contents/PlugIns\"\ncp -pR \"../PlugIns/TabsPlugIn/build/${BUILD_STYLE}/Tabs.fluidplugin\" \"${TARGET_BUILD_DIR}/Fluidium.app/Contents/PlugIns\"\n\n#cp -pR \"../PlugIns/TabsPlugIn/build/${BUILD_STYLE}/Tabs.fluidplugin\" \"${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}/Contents/PlugIns\"\n";
-		};
-		D3C2E4D111D7EEBE00106E86 /* Copy PlugIns */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy PlugIns";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "cp -pR \"../../fake/build/${BUILD_STYLE}/Fake.fluidplugin\" \"${TARGET_BUILD_DIR}/Fake.app/Contents/PlugIns\"\ncp -pR \"../PlugIns/TabsPlugIn/build/${BUILD_STYLE}/Tabs.fluidplugin\" \"${TARGET_BUILD_DIR}/Fake.app/Contents/PlugIns\"\n\n#cp -pR \"../PlugIns/TabsPlugIn/build/${BUILD_STYLE}/Tabs.fluidplugin\" \"${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}/Contents/PlugIns\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D15AC300486D014006FF6A4 /* Sources */ = {
@@ -2779,257 +1922,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3C2E39A11D7E9C600106E86 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3C2E39B11D7E9C600106E86 /* main.m in Sources */,
-				D3C2E39D11D7E9C600106E86 /* FUWindowController.m in Sources */,
-				D3C2E39E11D7E9C600106E86 /* FUWindow.m in Sources */,
-				D3C2E39F11D7E9C600106E86 /* FUDocumentController.m in Sources */,
-				D3C2E3A011D7E9C600106E86 /* FUWindowToolbar.m in Sources */,
-				D3C2E3A111D7E9C600106E86 /* FUApplication.m in Sources */,
-				D3C2E3A211D7E9C600106E86 /* FUBackForwardPopUpButton.m in Sources */,
-				D3C2E3A311D7E9C600106E86 /* NSArray+FUAdditions.m in Sources */,
-				D3C2E3A411D7E9C600106E86 /* FUProgressTextField.m in Sources */,
-				D3C2E3A511D7E9C600106E86 /* FURecentURLController.m in Sources */,
-				D3C2E3A611D7E9C600106E86 /* FUWebPreferences.m in Sources */,
-				D3C2E3A711D7E9C600106E86 /* FUUserDefaults.m in Sources */,
-				D3C2E3A811D7E9C600106E86 /* FUTabController.m in Sources */,
-				D3C2E3A911D7E9C600106E86 /* NSString+FUAdditions.m in Sources */,
-				D3C2E3AA11D7E9C600106E86 /* FUWebView.m in Sources */,
-				D3C2E3AC11D7E9C600106E86 /* FUUtils.m in Sources */,
-				D3C2E3AD11D7E9C600106E86 /* FUHistoryController.m in Sources */,
-				D3C2E3AE11D7E9C600106E86 /* WebIconDatabase+FUAdditions.m in Sources */,
-				D3C2E3AF11D7E9C600106E86 /* FUDownloadItem.m in Sources */,
-				D3C2E3B011D7E9C600106E86 /* FUDownloadListBackgroundView.m in Sources */,
-				D3C2E3B111D7E9C600106E86 /* FUDownloadListButton.m in Sources */,
-				D3C2E3B211D7E9C600106E86 /* FUDownloadListButtonCell.m in Sources */,
-				D3C2E3B311D7E9C600106E86 /* FUDownloadWindowController.m in Sources */,
-				D3C2E3B411D7E9C600106E86 /* FUViewSourceWindowController.m in Sources */,
-				D3C2E3B511D7E9C600106E86 /* FUFindPanelView.m in Sources */,
-				D3C2E3B611D7E9C600106E86 /* FUBookmark.m in Sources */,
-				D3C2E3B711D7E9C600106E86 /* FUBookmarkBar.m in Sources */,
-				D3C2E3B811D7E9C600106E86 /* FUBookmarkBarButton.m in Sources */,
-				D3C2E3B911D7E9C600106E86 /* FUBookmarkBarButtonCell.m in Sources */,
-				D3C2E3BA11D7E9C600106E86 /* FUBookmarkBarOverflowButton.m in Sources */,
-				D3C2E3BB11D7E9C600106E86 /* FUBookmarkButtonSeparator.m in Sources */,
-				D3C2E3BC11D7E9C600106E86 /* FUBookmarkWindowController.m in Sources */,
-				D3C2E3BD11D7E9C600106E86 /* FUBookmarkController.m in Sources */,
-				D3C2E3BE11D7E9C600106E86 /* FUTabBarControl.m in Sources */,
-				D3C2E3BF11D7E9C600106E86 /* FUActivation.m in Sources */,
-				D3C2E3C011D7E9C600106E86 /* FUPlugInAPIImpl.m in Sources */,
-				D3C2E3C111D7E9C600106E86 /* FUPlugInWrapper.m in Sources */,
-				D3C2E3C211D7E9C600106E86 /* FUPlugInController.m in Sources */,
-				D3C2E3C311D7E9C600106E86 /* FUPlugInPreferences.m in Sources */,
-				D3C2E3C411D7E9C600106E86 /* FUBasePreferences.m in Sources */,
-				D3C2E3C511D7E9C600106E86 /* FUGeneralPreferences.m in Sources */,
-				D3C2E3C611D7E9C600106E86 /* TDHtmlSyntaxHighlighter.m in Sources */,
-				D3C2E3C711D7E9C600106E86 /* FUTabsPreferences.m in Sources */,
-				D3C2E3C811D7E9C600106E86 /* IconFamily.m in Sources */,
-				D3C2E3C911D7E9C600106E86 /* NSString+CarbonFSRefCreation.m in Sources */,
-				D3C2E3CA11D7E9C600106E86 /* FUIconController.m in Sources */,
-				D3C2E3CB11D7E9C600106E86 /* FUAppearancePreferences.m in Sources */,
-				D3C2E3CC11D7E9C600106E86 /* FUBehaviorPreferences.m in Sources */,
-				D3C2E3CD11D7E9C600106E86 /* FUSecurityPreferences.m in Sources */,
-				D3C2E3CE11D7E9C600106E86 /* FUShortcutController.m in Sources */,
-				D3C2E3CF11D7E9C600106E86 /* FUShortcutPreferences.m in Sources */,
-				D3C2E3D011D7E9C600106E86 /* FUUpdatePreferences.m in Sources */,
-				D3C2E3D111D7E9C600106E86 /* FUShortcutCommand.m in Sources */,
-				D3C2E3D311D7E9C600106E86 /* FUUserstyleViewController.m in Sources */,
-				D3C2E3D511D7E9C600106E86 /* FUUserstyleController.m in Sources */,
-				D3C2E3D611D7E9C600106E86 /* FUWhitelistController.m in Sources */,
-				D3C2E3D711D7E9C600106E86 /* FUWildcardPattern.m in Sources */,
-				D3C2E3D811D7E9C600106E86 /* NSFileManager+FUAdditions.m in Sources */,
-				D3C2E3D911D7E9C600106E86 /* FUUserscriptController.m in Sources */,
-				D3C2E3DA11D7E9C600106E86 /* FUUserscriptViewController.m in Sources */,
-				D3C2E3DB11D7E9C600106E86 /* FUUserthingViewController.m in Sources */,
-				D3C2E3DC11D7E9C600106E86 /* FUUserAgentWindowController.m in Sources */,
-				D3C2E3DD11D7E9C600106E86 /* DOMNode+FUAdditions.m in Sources */,
-				D3C2E3DE11D7E9C600106E86 /* FUView.m in Sources */,
-				D3C2E3DF11D7E9C600106E86 /* NSPasteboard+FUAdditions.m in Sources */,
-				D3C2E3E311D7E9C600106E86 /* FUNotifications.m in Sources */,
-				D3C2E3E411D7E9C600106E86 /* HMAppKitEx.m in Sources */,
-				D3C2E3E511D7E9C600106E86 /* HMButton.m in Sources */,
-				D3C2E3E611D7E9C600106E86 /* HMButtonCell.m in Sources */,
-				D3C2E3E711D7E9C600106E86 /* HMFoundationEx.m in Sources */,
-				D3C2E3E811D7E9C600106E86 /* HMImageComboBox.m in Sources */,
-				D3C2E3E911D7E9C600106E86 /* HMImageComboBoxCell.m in Sources */,
-				D3C2E3EA11D7E9C600106E86 /* FUWindowController+NSToolbarDelegate.m in Sources */,
-				D3C2E3EB11D7E9C600106E86 /* FUUserthingWindowController.m in Sources */,
-				D3C2E3EC11D7E9C600106E86 /* OAPreferenceClient.m in Sources */,
-				D3C2E3ED11D7E9C600106E86 /* OAPreferenceClientRecord.m in Sources */,
-				D3C2E3EE11D7E9C600106E86 /* OAPreferenceController.m in Sources */,
-				D3C2E3EF11D7E9C600106E86 /* OAPreferencesIconView.m in Sources */,
-				D3C2E3F011D7E9C600106E86 /* OAPreferencesToolbar.m in Sources */,
-				D3C2E3F111D7E9C600106E86 /* OAPreferencesWindow.m in Sources */,
-				D3C2E3F211D7E9C600106E86 /* NSString-OFSimpleMatching.m in Sources */,
-				D3C2E3F311D7E9C600106E86 /* NSArray-OFExtensions.m in Sources */,
-				D3C2E3F411D7E9C600106E86 /* NSString-OFReplacement.m in Sources */,
-				D3C2E3F511D7E9C600106E86 /* NSObject-OFExtensions.m in Sources */,
-				D3C2E3F611D7E9C600106E86 /* NSMutableArray-OFExtensions.m in Sources */,
-				D3C2E3F711D7E9C600106E86 /* NSImage-OAExtensions.m in Sources */,
-				D3C2E3F811D7E9C600106E86 /* NSBundle-OAExtensions.m in Sources */,
-				D3C2E3F911D7E9C600106E86 /* OFPreference.m in Sources */,
-				D3C2E3FA11D7E9C600106E86 /* OFObject.m in Sources */,
-				D3C2E3FB11D7E9C600106E86 /* OBObject.m in Sources */,
-				D3C2E3FC11D7E9C600106E86 /* PTHotKey.m in Sources */,
-				D3C2E3FD11D7E9C600106E86 /* PTHotKeyCenter.m in Sources */,
-				D3C2E3FE11D7E9C600106E86 /* PTKeyCodeTranslator.m in Sources */,
-				D3C2E3FF11D7E9C600106E86 /* PTKeyCombo.m in Sources */,
-				D3C2E40011D7E9C600106E86 /* FUPlugIn.m in Sources */,
-				D3C2E40111D7E9C600106E86 /* FUDoJavaScriptCommand.m in Sources */,
-				D3C2E40211D7E9C600106E86 /* FULoadURLCommand.m in Sources */,
-				D3C2E40311D7E9C600106E86 /* FUDocument+Scripting.m in Sources */,
-				D3C2E40411D7E9C600106E86 /* FUTabController+Scripting.m in Sources */,
-				D3C2E40511D7E9C600106E86 /* FUGoBackCommand.m in Sources */,
-				D3C2E40611D7E9C600106E86 /* FUGoForwardCommand.m in Sources */,
-				D3C2E40711D7E9C600106E86 /* FUGoHomeCommand.m in Sources */,
-				D3C2E40811D7E9C600106E86 /* FUStopLoadingCommand.m in Sources */,
-				D3C2E40911D7E9C600106E86 /* FUReloadCommand.m in Sources */,
-				D3C2E40A11D7E9C600106E86 /* FUActualSizeCommand.m in Sources */,
-				D3C2E40B11D7E9C600106E86 /* FUZoomInCommand.m in Sources */,
-				D3C2E40C11D7E9C600106E86 /* FUZoomOutCommand.m in Sources */,
-				D3C2E40D11D7E9C600106E86 /* FUDocumentController+Scripting.m in Sources */,
-				D3C2E40E11D7E9C600106E86 /* FUWindowController+Scripting.m in Sources */,
-				D3C2E40F11D7E9C600106E86 /* NSDictionary+FUScripting.m in Sources */,
-				D3C2E41011D7E9C600106E86 /* FUBaseScriptCommand.m in Sources */,
-				D3C2E41211D7E9C600106E86 /* FUHandlerController.m in Sources */,
-				D3C2E41311D7E9C600106E86 /* FUSubmitFormCommand.m in Sources */,
-				D3C2E41411D7E9C600106E86 /* FUTabController+Recording.m in Sources */,
-				D3C2E41511D7E9C600106E86 /* FUCreateCommand.m in Sources */,
-				D3C2E41611D7E9C600106E86 /* FUSetElementValueCommand.m in Sources */,
-				D3C2E41711D7E9C600106E86 /* FUClickLinkCommand.m in Sources */,
-				D3C2E41811D7E9C600106E86 /* FUClickButtonCommand.m in Sources */,
-				D3C2E41911D7E9C600106E86 /* FUProgressComboBox.m in Sources */,
-				D3C2E41A11D7E9C600106E86 /* TDComboField+FUAdditions.m in Sources */,
-				D3C2E41B11D7E9C600106E86 /* FUAssertCommand.m in Sources */,
-				D3D4853B11E289E50030A659 /* FakeWindow.m in Sources */,
-				D3D4857511E28BCB0030A659 /* FakeDocument.m in Sources */,
-				D3D486BC11E298180030A659 /* FakeConnectionContentView.m in Sources */,
-				D3D6452F11E4169B00BCB75A /* FakeWindowController.m in Sources */,
-				D3F156D211E9113E008F1626 /* FakeTabController.m in Sources */,
-				D362A42411EC352C004FC3B0 /* FUFocusElementCommand.m in Sources */,
-				D358801B11ED8AF300F904A7 /* FUDispatchKeyboardEventCommand.m in Sources */,
-				D358801C11ED8AF300F904A7 /* FUDispatchMouseEventCommand.m in Sources */,
-				D358807B11EE147500F904A7 /* FUCaptureWebPageCommand.m in Sources */,
-				D36FDDB511F1270E005BB0AC /* FUSetVariableValueCommand.m in Sources */,
-				D364ECD911F3A74B008AC15E /* FUSetFormValuesCommand.m in Sources */,
-				D364EDCF12306E99008AC15E /* FURunWorkflowCommand.m in Sources */,
-				D364EDD312306E99008AC15E /* FUStopWorkflowCommand.m in Sources */,
-				D37E9A4F11FB997300147399 /* FakeDocumentController.m in Sources */,
-				D30E6B1211FE5D220093695A /* FUJavaScriptBridge.m in Sources */,
-				D30E6B1311FE5D280093695A /* FUJavaScriptMenuItem.m in Sources */,
-				D30E6B1411FE5D2E0093695A /* FUJavaScriptGrowlNotification.m in Sources */,
-				D37A816D120637F000E1178C /* AutoTyper.m in Sources */,
-				D37A816E120637F000E1178C /* AutoTypeCode.m in Sources */,
-				D3BD6EDF1209FEB200BE7395 /* FUDismissDialogCommand.m in Sources */,
-				D34A5443120BB6090059D145 /* FUWaitUntilDoneCommand.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D309FCD911DFE32000C30AA8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TabsPlugIn;
-			targetProxy = D309FCD811DFE32000C30AA8 /* PBXContainerItemProxy */;
-		};
-		D31CC0CE10EFCB770013347D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TDAppKit;
-			targetProxy = D31CC0CD10EFCB770013347D /* PBXContainerItemProxy */;
-		};
-		D328FF5010CC340C00BB363B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PSMTabBarControlFramework;
-			targetProxy = D328FF4F10CC340C00BB363B /* PBXContainerItemProxy */;
-		};
-		D33B1DC31116AF7700F754AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D38423141102D50D00605809 /* Fluidium+PlugIns */;
-			targetProxy = D33B1DC21116AF7700F754AD /* PBXContainerItemProxy */;
-		};
-		D3414BC01103883100CCC986 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UMEKit;
-			targetProxy = D3414BBF1103883100CCC986 /* PBXContainerItemProxy */;
-		};
-		D346E58F10CE437800BA0B15 /* PBXTargetDependency */ = {
+		C52FC4D013A20A0200A2D359 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ParseKit;
-			targetProxy = D346E58E10CE437800BA0B15 /* PBXContainerItemProxy */;
+			targetProxy = C52FC4CF13A20A0200A2D359 /* PBXContainerItemProxy */;
 		};
-		D361101811EA6F7100DB7EFD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8D15AC270486D014006FF6A4 /* Fluidium */;
-			targetProxy = D361101711EA6F7100DB7EFD /* PBXContainerItemProxy */;
-		};
-		D37E9ABB11FBA19700147399 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AquaticPrime;
-			targetProxy = D37E9ABA11FBA19700147399 /* PBXContainerItemProxy */;
-		};
-		D38422F01102D39200605809 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8D15AC270486D014006FF6A4 /* Fluidium */;
-			targetProxy = D38422EF1102D39200605809 /* PBXContainerItemProxy */;
-		};
-		D38422F21102D3A500605809 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TabsPlugIn;
-			targetProxy = D38422F11102D3A500605809 /* PBXContainerItemProxy */;
-		};
-		D38422F41102D3A500605809 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BrowsaPlugIn;
-			targetProxy = D38422F31102D3A500605809 /* PBXContainerItemProxy */;
-		};
-		D38422F61102D3A500605809 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TwitterPlugIn;
-			targetProxy = D38422F51102D3A500605809 /* PBXContainerItemProxy */;
-		};
-		D384231A1102D51B00605809 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D38422EC1102D38B00605809 /* Fluidium PlugIns */;
-			targetProxy = D38423191102D51B00605809 /* PBXContainerItemProxy */;
-		};
-		D3C2E39211D7E9C600106E86 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PSMTabBarControlFramework;
-			targetProxy = D3C2E39311D7E9C600106E86 /* PBXContainerItemProxy */;
-		};
-		D3C2E39411D7E9C600106E86 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TDAppKit;
-			targetProxy = D3C2E39511D7E9C600106E86 /* PBXContainerItemProxy */;
-		};
-		D3C2E39611D7E9C600106E86 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ParseKit;
-			targetProxy = D3C2E39711D7E9C600106E86 /* PBXContainerItemProxy */;
-		};
-		D3C2E39811D7E9C600106E86 /* PBXTargetDependency */ = {
+		C52FC4D213A20A0200A2D359 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UMEKit;
-			targetProxy = D3C2E39911D7E9C600106E86 /* PBXContainerItemProxy */;
+			targetProxy = C52FC4D113A20A0200A2D359 /* PBXContainerItemProxy */;
 		};
-		D3C2E4F011D7EF1900106E86 /* PBXTargetDependency */ = {
+		C52FC4D413A20A0200A2D359 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FakePlugIn;
-			targetProxy = D3C2E4EF11D7EF1900106E86 /* PBXContainerItemProxy */;
+			name = PSMTabBarControlFramework;
+			targetProxy = C52FC4D313A20A0200A2D359 /* PBXContainerItemProxy */;
 		};
-		D3C2E4FC11D7EF9400106E86 /* PBXTargetDependency */ = {
+		C52FC4D613A20A0200A2D359 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D3C2E4C811D7EEBE00106E86 /* Fake PlugIns */;
-			targetProxy = D3C2E4FB11D7EF9400106E86 /* PBXContainerItemProxy */;
-		};
-		D3C2E4FE11D7EF9C00106E86 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D3C2E39111D7E9C600106E86 /* Fake */;
-			targetProxy = D3C2E4FD11D7EF9C00106E86 /* PBXContainerItemProxy */;
+			name = TDAppKit;
+			targetProxy = C52FC4D513A20A0200A2D359 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -3202,22 +2116,6 @@
 			name = FUBehaviorPreferences.xib;
 			sourceTree = "<group>";
 		};
-		D3D4856D11E28B8A0030A659 /* FakeWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3D4856E11E28B8A0030A659 /* English */,
-			);
-			name = FakeWindow.xib;
-			sourceTree = "<group>";
-		};
-		D3D4857011E28BA80030A659 /* FakeMainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3D4857111E28BA80030A659 /* English */,
-			);
-			name = FakeMainMenu.xib;
-			sourceTree = "<group>";
-		};
 		D3E42FDB10CB1E1600A5BDEF /* FUDownloadWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -3241,11 +2139,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					x86_64,
-					i386,
-					ppc,
-				);
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SRCROOT)/lib/ShortcutRecorder\"",
@@ -3269,7 +2163,7 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				INFOPLIST_FILE = res/conf/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = Fluidium;
+				PRODUCT_NAME = Talk.to;
 				SDKROOT = macosx10.5;
 			};
 			name = Debug;
@@ -3278,11 +2172,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					x86_64,
-					i386,
-					ppc,
-				);
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3307,7 +2197,7 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				INFOPLIST_FILE = res/conf/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = Fluidium;
+				PRODUCT_NAME = Talk.to;
 				SDKROOT = macosx10.5;
 				STRIP_STYLE = all;
 			};
@@ -3323,6 +2213,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
+				PRODUCT_NAME = Talk.to;
 				SDKROOT = macosx10.6;
 			};
 			name = Debug;
@@ -3335,211 +2226,15 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
+				PRODUCT_NAME = Talk.to;
 				SDKROOT = macosx10.6;
-			};
-			name = Release;
-		};
-		D33B1DC01116AF7000F754AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = Cruz;
-				SDKROOT = macosx10.5;
-			};
-			name = Debug;
-		};
-		D33B1DC11116AF7000F754AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				PRODUCT_NAME = Cruz;
-				SDKROOT = macosx10.5;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
-		D38422ED1102D38B00605809 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = PlugIns;
-				SDKROOT = macosx10.5;
-			};
-			name = Debug;
-		};
-		D38422EE1102D38B00605809 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				PRODUCT_NAME = PlugIns;
-				SDKROOT = macosx10.5;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
-		D38423151102D50D00605809 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = "Fluidium+PlugIns";
-				SDKROOT = macosx10.5;
-			};
-			name = Debug;
-		};
-		D38423161102D50D00605809 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				PRODUCT_NAME = "Fluidium+PlugIns";
-				SDKROOT = macosx10.5;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
-		D3C2E46E11D7E9C600106E86 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					x86_64,
-					i386,
-					ppc,
-				);
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../../fake/lib/AquaticPrime\"/**",
-					"\"$(SRCROOT)/lib/ShortcutRecorder\"",
-					"\"$(SRCROOT)/lib/PSMTabBarControl/build/$(CONFIGURATION)\"",
-					"\"$(SRCROOT)/lib/TDAppKit/build/$(CONFIGURATION)\"",
-					"\"$(SRCROOT)/lib/ParseKit/build/$(CONFIGURATION)\"",
-					"\"$(SRCROOT)/lib/Growl\"",
-					"\"$(SRCROOT)/build/Debug\"",
-					"\"$(SRCROOT)/lib/Sparkle\"",
-				);
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = src/Fake_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = FUDEBUG;
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = NO;
-				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../fake/src\"";
-				INFOPLIST_FILE = "res/conf/Fake-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				OTHER_LDFLAGS = "-lcrypto";
-				PRODUCT_NAME = Fake;
-				SDKROOT = macosx10.5;
-			};
-			name = Debug;
-		};
-		D3C2E46F11D7E9C600106E86 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					x86_64,
-					i386,
-					ppc,
-				);
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../../fake/lib/AquaticPrime\"/**",
-					"\"$(SRCROOT)/lib/ShortcutRecorder\"",
-					"\"$(SRCROOT)/lib/PSMTabBarControl/build/$(CONFIGURATION)\"",
-					"\"$(SRCROOT)/lib/TDAppKit/build/$(CONFIGURATION)\"",
-					"\"$(SRCROOT)/lib/ParseKit/build/$(CONFIGURATION)\"",
-					"\"$(SRCROOT)/lib/Growl\"",
-					"\"$(SRCROOT)/build/Debug\"",
-					"\"$(SRCROOT)/lib/Sparkle\"",
-				);
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = src/Fake_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = NS_BLOCK_ASSERTIONS;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = NO;
-				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../fake/src\"";
-				INFOPLIST_FILE = "res/conf/Fake-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				OTHER_LDFLAGS = "-lcrypto";
-				PRODUCT_NAME = Fake;
-				SDKROOT = macosx10.5;
-				STRIP_STYLE = all;
-			};
-			name = Release;
-		};
-		D3C2E4D311D7EEBE00106E86 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = PlugIns;
-				SDKROOT = macosx10.5;
-			};
-			name = Debug;
-		};
-		D3C2E4D411D7EEBE00106E86 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				PRODUCT_NAME = PlugIns;
-				SDKROOT = macosx10.5;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
-		D3C2E4F911D7EF7A00106E86 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = "Fake+PlugIns";
-				SDKROOT = macosx10.5;
-			};
-			name = Debug;
-		};
-		D3C2E4FA11D7EF7A00106E86 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				PRODUCT_NAME = "Fake+PlugIns";
-				SDKROOT = macosx10.5;
-				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Fluidium" */ = {
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Talk.to" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C05733C808A9546B00998B17 /* Debug */,
@@ -3553,60 +2248,6 @@
 			buildConfigurations = (
 				C05733CC08A9546B00998B17 /* Debug */,
 				C05733CD08A9546B00998B17 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D33B1DC41116AF9500F754AD /* Build configuration list for PBXAggregateTarget "Custom Browser" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D33B1DC01116AF7000F754AD /* Debug */,
-				D33B1DC11116AF7000F754AD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D38423031102D3E300605809 /* Build configuration list for PBXAggregateTarget "Fluidium PlugIns" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D38422ED1102D38B00605809 /* Debug */,
-				D38422EE1102D38B00605809 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D384231E1102D53F00605809 /* Build configuration list for PBXAggregateTarget "Fluidium+PlugIns" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D38423151102D50D00605809 /* Debug */,
-				D38423161102D50D00605809 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D3C2E46D11D7E9C600106E86 /* Build configuration list for PBXNativeTarget "Fake" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D3C2E46E11D7E9C600106E86 /* Debug */,
-				D3C2E46F11D7E9C600106E86 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D3C2E4D211D7EEBE00106E86 /* Build configuration list for PBXAggregateTarget "Fake PlugIns" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D3C2E4D311D7EEBE00106E86 /* Debug */,
-				D3C2E4D411D7EEBE00106E86 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D3C2E4F811D7EF7A00106E86 /* Build configuration list for PBXAggregateTarget "Fake+PlugIns" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D3C2E4F911D7EF7A00106E86 /* Debug */,
-				D3C2E4FA11D7EF7A00106E86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

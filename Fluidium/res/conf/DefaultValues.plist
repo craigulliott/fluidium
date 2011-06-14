@@ -75,7 +75,7 @@
 	<key>FUJavaScriptCanOpenWindowsAutomatically</key>
 	<false/>
 	<key>FUCookieAcceptPolicy</key>
-	<integer>2</integer>
+	<integer>0</integer>
 	<key>FUHandlers</key>
 	<array/>
 	<key>FUAllowBrowsingToAnyDomain</key>

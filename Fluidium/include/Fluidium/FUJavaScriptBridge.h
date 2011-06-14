@@ -34,6 +34,7 @@
 - (void)beep;
 - (void)bounceDockIcon;
 - (void)playSoundNamed:(id)obj;
+- (void)openUrlInDefaultBrowser:(NSString *)url;
 
 @property (nonatomic, copy) id dockBadge;
 @property (nonatomic, readonly) BOOL isGrowlRunning;

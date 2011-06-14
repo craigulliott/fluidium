@@ -82,7 +82,9 @@
         return @"bounceDockIcon";
     } else if (@selector(playSoundNamed:) == sel) {
         return @"playSound";
-    } else {
+    } else if(@selector(openUrlInDefaultBrowser:) == sel) {
+		return @"openUrlInDefaultBrowser";
+	} else {
         return nil;
     }
 }
@@ -183,6 +185,9 @@
     }
 }
 
+- (void)openUrlInDefaultBrowser:(NSString *)url {
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:url]];
+}
 
 #pragma mark -
 #pragma mark Private
