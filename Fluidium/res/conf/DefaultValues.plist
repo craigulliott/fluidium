@@ -19,7 +19,7 @@
 	<key>FUBookmarkBarShowsFavicons</key>
 	<false/>
 	<key>FUStatusBarShown</key>
-	<true/>
+	<false/>
 	<key>FUTabBarHiddenAlways</key>
 	<false/>
 	<key>FUWindowFrameString</key>
@@ -55,7 +55,7 @@
 	<key>FUSessionsEnabled</key>
 	<true/>
 	<key>FUTabbedBrowsingEnabled</key>
-	<true/>
+	<false/>
 	<key>FUSelectNewWindowsOrTabsAsCreated</key>
 	<false/>
 	<key>FUTabBarHiddenForSingleTab</key>
@@ -73,7 +73,7 @@
 	<key>FUJavaScriptEnabled</key>
 	<true/>
 	<key>FUJavaScriptCanOpenWindowsAutomatically</key>
-	<false/>
+	<true/>
 	<key>FUCookieAcceptPolicy</key>
 	<integer>0</integer>
 	<key>FUHandlers</key>

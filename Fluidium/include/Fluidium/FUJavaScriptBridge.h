@@ -20,13 +20,14 @@
     id dockBadge;
     BOOL isGrowlRunning;
     NSMutableArray *dockMenuItems;
-    WebScriptObject *onclick;
 }
 
 - (void)dockMenuItemClick:(FUJavaScriptMenuItem *)jsItem;
 
 // JavaScript methods
 - (void)showGrowlNotification:(id)arg;
+
+- (NSNumber *)isThresholdExceeded:(NSNumber *)threshold;
 
 - (void)addDockMenuItemWithTitle:(NSString *)title function:(WebScriptObject *)func;
 - (void)removeDockMenuItemWithTitle:(NSString *)title;
@@ -39,5 +40,4 @@
 @property (nonatomic, copy) id dockBadge;
 @property (nonatomic, readonly) BOOL isGrowlRunning;
 @property (nonatomic, retain) NSMutableArray *dockMenuItems;
-@property (nonatomic, retain) WebScriptObject *onclick;
 @end

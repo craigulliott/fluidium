@@ -127,6 +127,10 @@
 		A2D98B0C0A2B432C0064C6F8 /* PSMUnifiedTabStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D98B080A2B432C0064C6F8 /* PSMUnifiedTabStyle.m */; };
 		A2D98B130A2B43FA0064C6F8 /* NSBezierPath_AMShading.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D98B100A2B43FA0064C6F8 /* NSBezierPath_AMShading.m */; };
 		A2D98B140A2B43FA0064C6F8 /* NSBezierPath_AMShading.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D98B100A2B43FA0064C6F8 /* NSBezierPath_AMShading.m */; };
+		C536EACD13A8EA20008FB1B2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C536EACC13A8EA20008FB1B2 /* CoreFoundation.framework */; };
+		C536EACF13A8EA20008FB1B2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C536EACE13A8EA20008FB1B2 /* IOKit.framework */; };
+		C536EB0013A8EA39008FB1B2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C536EACC13A8EA20008FB1B2 /* CoreFoundation.framework */; };
+		C536EBAF13A8EA3F008FB1B2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C536EACE13A8EA20008FB1B2 /* IOKit.framework */; };
 		D3280A2E10CCCCE400BB363B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3280A2D10CCCCE400BB363B /* WebKit.framework */; };
 		D34ACBE211C1C4AC00D8A417 /* TDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34ACBDB11C1C48E00D8A417 /* TDAppKit.framework */; };
 		D38422091102D1CE00605809 /* FUUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D38422071102D1CE00605809 /* FUUtils.h */; };
@@ -317,6 +321,8 @@
 		A2D98B080A2B432C0064C6F8 /* PSMUnifiedTabStyle.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PSMUnifiedTabStyle.m; path = source/PSMUnifiedTabStyle.m; sourceTree = "<group>"; };
 		A2D98B0F0A2B43FA0064C6F8 /* NSBezierPath_AMShading.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = NSBezierPath_AMShading.h; path = source/NSBezierPath_AMShading.h; sourceTree = "<group>"; };
 		A2D98B100A2B43FA0064C6F8 /* NSBezierPath_AMShading.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = NSBezierPath_AMShading.m; path = source/NSBezierPath_AMShading.m; sourceTree = "<group>"; };
+		C536EACC13A8EA20008FB1B2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		C536EACE13A8EA20008FB1B2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
 		D3280A2D10CCCCE400BB363B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
 		D34ACBD411C1C48E00D8A417 /* TDAppKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TDAppKit.xcodeproj; path = ../TDAppKit/TDAppKit.xcodeproj; sourceTree = SOURCE_ROOT; };
 		D38422071102D1CE00605809 /* FUUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUUtils.h; path = ../../include/Fluidium/FUUtils.h; sourceTree = SOURCE_ROOT; };
@@ -330,6 +336,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D34ACBE211C1C4AC00D8A417 /* TDAppKit.framework in Frameworks */,
+				C536EBAF13A8EA3F008FB1B2 /* IOKit.framework in Frameworks */,
+				C536EB0013A8EA39008FB1B2 /* CoreFoundation.framework in Frameworks */,
 				13F8B89007B43554008AE28D /* Cocoa.framework in Frameworks */,
 				318F2E330C7D17E300DE79A7 /* Carbon.framework in Frameworks */,
 				D3280A2E10CCCCE400BB363B /* WebKit.framework in Frameworks */,
@@ -343,6 +351,8 @@
 				8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */,
 				37AF9DE10C945DC8003CAABC /* Carbon.framework in Frameworks */,
 				13EB9DBE07DE0F1E00EB933A /* InterfaceBuilder.framework in Frameworks */,
+				C536EACD13A8EA20008FB1B2 /* CoreFoundation.framework in Frameworks */,
+				C536EACF13A8EA20008FB1B2 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +419,8 @@
 				13EB9DBD07DE0F1E00EB933A /* InterfaceBuilder.framework */,
 				DD92D38A0106425D02CA0E72 /* Cocoa.framework */,
 				318F2E320C7D17E300DE79A7 /* Carbon.framework */,
+				C536EACC13A8EA20008FB1B2 /* CoreFoundation.framework */,
+				C536EACE13A8EA20008FB1B2 /* IOKit.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";

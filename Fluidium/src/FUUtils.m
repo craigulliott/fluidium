@@ -14,6 +14,8 @@
 
 #import "FUUtils.h"
 #import "WebURLsWithTitles.h"
+#import <IOKit/IOKitLib.h>
+#import <CoreFoundation/CoreFoundation.h>
 
 extern NSString *_NSPathForSystemFramework(NSString *framework);
 
@@ -218,3 +220,26 @@ void FUWriteAllToPasteboard(NSString *URLString, NSString *title, NSPasteboard *
     [pboard setString:URLString forType:NSStringPboardType];    
 }
 
+int64_t SystemIdleTime(void) {
+	int64_t idlesecs = -1;
+	io_iterator_t iter = 0;
+	if (IOServiceGetMatchingServices(kIOMasterPortDefault, IOServiceMatching("IOHIDSystem"), &iter) == KERN_SUCCESS) {
+		io_registry_entry_t entry = IOIteratorNext(iter);
+		if (entry)  {
+			CFMutableDictionaryRef dict = NULL;
+			if (IORegistryEntryCreateCFProperties(entry, &dict, kCFAllocatorDefault, 0) == KERN_SUCCESS) {
+				CFNumberRef obj = (CFNumberRef) CFDictionaryGetValue(dict, CFSTR("HIDIdleTime"));
+				if (obj) {
+					int64_t nanoseconds = 0;
+					if (CFNumberGetValue(obj, kCFNumberSInt64Type, &nanoseconds)) {
+						idlesecs = (nanoseconds / 1000000000); // Convert from nanoseconds to seconds.
+					}
+				}
+				CFRelease(dict);
+			}
+			IOObjectRelease(entry);
+		}
+		IOObjectRelease(iter);
+	}
+	return idlesecs;
+}

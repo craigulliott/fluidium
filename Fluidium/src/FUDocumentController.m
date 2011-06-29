@@ -229,7 +229,8 @@
 #pragma mark GrowBridgeDelegate
 
 - (void)growlNotificationWasClicked:(id)clickContext {
-    
+	NSArray *args = [NSArray arrayWithObject:[[self frontWebView] windowScriptObject]];
+	[clickContext callWebScriptMethod:@"call" withArguments:args];
 }
 
 

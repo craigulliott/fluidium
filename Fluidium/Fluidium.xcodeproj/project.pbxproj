@@ -20,6 +20,8 @@
 		C52FC44713A2045800A2D359 /* UMEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52FC33113A2030B00A2D359 /* UMEKit.framework */; };
 		C52FC44813A2045800A2D359 /* TDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52FC32213A2030100A2D359 /* TDAppKit.framework */; };
 		C52FC44913A2045800A2D359 /* PSMTabBarControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52FC31A13A202F400A2D359 /* PSMTabBarControl.framework */; };
+		C536E95413A8C2DB008FB1B2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C536E95313A8C2DB008FB1B2 /* CoreFoundation.framework */; };
+		C536E98413A8C303008FB1B2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C536E98313A8C303008FB1B2 /* IOKit.framework */; };
 		C5A895EB13A200B800EAC265 /* talkto-mac-icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C5A895EA13A200B800EAC265 /* talkto-mac-icon.icns */; };
 		C5A9001B13829D9F00FE5EDD /* js-built in Resources */ = {isa = PBXBuildFile; fileRef = C5A9FE6213829D9F00FE5EDD /* js-built */; };
 		D305193510C909E400AFF325 /* FUTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = D305193410C909E400AFF325 /* FUTabController.m */; };
@@ -418,6 +420,8 @@
 		C52FC30513A202F400A2D359 /* PSMTabBarControl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PSMTabBarControl.xcodeproj; path = lib/PSMTabBarControl/PSMTabBarControl.xcodeproj; sourceTree = "<group>"; };
 		C52FC31B13A2030100A2D359 /* TDAppKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TDAppKit.xcodeproj; path = lib/TDAppKit/TDAppKit.xcodeproj; sourceTree = "<group>"; };
 		C52FC32713A2030B00A2D359 /* UMEKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMEKit.xcodeproj; path = lib/UMEKit/UMEKit.xcodeproj; sourceTree = "<group>"; };
+		C536E95313A8C2DB008FB1B2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C536E98313A8C303008FB1B2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		C5A895EA13A200B800EAC265 /* talkto-mac-icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "talkto-mac-icon.icns"; path = "res/img/talkto-mac-icon.icns"; sourceTree = "<group>"; };
 		C5A9FE6213829D9F00FE5EDD /* js-built */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "js-built"; path = "../../pwdesktop/out/js-built"; sourceTree = SOURCE_ROOT; };
 		D305193310C909E400AFF325 /* FUTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUTabController.h; path = include/Fluidium/FUTabController.h; sourceTree = "<group>"; };
@@ -794,6 +798,8 @@
 				D30BC44F10E187A40019816B /* Growl.framework in Frameworks */,
 				D3189E8F10F6FFFA00B6AA21 /* Sparkle.framework in Frameworks */,
 				D3F9415E1102F3A500267DA0 /* ShortcutRecorder.framework in Frameworks */,
+				C536E95413A8C2DB008FB1B2 /* CoreFoundation.framework in Frameworks */,
+				C536E98413A8C303008FB1B2 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -803,6 +809,7 @@
 		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C536E98313A8C303008FB1B2 /* IOKit.framework */,
 				D34B5E1B10CF6EF3006E17C4 /* Carbon.framework */,
 				D346EE4E10CF6D6200BA0B15 /* CoreServices.framework */,
 				D362A24C11EC1379004FC3B0 /* Security.framework */,
@@ -813,6 +820,7 @@
 				D3189E8E10F6FFFA00B6AA21 /* Sparkle.framework */,
 				D3F9415D1102F3A500267DA0 /* ShortcutRecorder.framework */,
 				D386705011F96D9100248091 /* JavaScriptCore.framework */,
+				C536E95313A8C2DB008FB1B2 /* CoreFoundation.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";

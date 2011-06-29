@@ -28,7 +28,7 @@
 
 - (id)init {
     if (self = [super init]) {
-
+		
     }
     return self;
 }
@@ -37,7 +37,6 @@
 - (void)dealloc {
     self.dockBadge = nil;
     self.dockMenuItems = nil;
-    self.onclick = nil;
     [super dealloc];
 }
 
@@ -84,6 +83,8 @@
         return @"playSound";
     } else if(@selector(openUrlInDefaultBrowser:) == sel) {
 		return @"openUrlInDefaultBrowser";
+	} else if(@selector(isThresholdExceeded:) == sel) {
+		return @"isThresholdExceeded";
 	} else {
         return nil;
     }
@@ -130,8 +131,14 @@
                                    iconData:note.iconData 
                                    priority:note.priority 
                                    isSticky:note.isSticky
-                               clickContext:@""
+                               clickContext:note.onclick
                                  identifier:note.identifier];
+}
+
+- (NSNumber *)isThresholdExceeded:(NSNumber *)threshold {
+	int64_t threshold_t = (int64_t)[threshold longLongValue],
+			systemIdleTime = SystemIdleTime();
+	return [NSNumber numberWithBool:(systemIdleTime > threshold_t)];
 }
 
 
@@ -204,5 +211,4 @@
 
 @synthesize dockBadge;
 @synthesize dockMenuItems;
-@synthesize onclick;
 @end
