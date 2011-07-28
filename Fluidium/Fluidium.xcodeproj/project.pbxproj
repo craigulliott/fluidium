@@ -932,7 +932,7 @@
 			children = (
 				C52FC2D413A2029D00A2D359 /* ParseKit.framework */,
 				C52FC2D613A2029D00A2D359 /* JSParseKit.framework */,
-				C52FC2D813A2029D00A2D359 /* parsekit.a */,
+				C52FC2D813A2029D00A2D359 /* libparsekit.a */,
 				C52FC2DA13A2029D00A2D359 /* Tests.octest */,
 				C52FC2DC13A2029D00A2D359 /* DemoApp.app */,
 				C52FC2DE13A2029D00A2D359 /* DebugApp.app */,
@@ -1635,10 +1635,10 @@
 			remoteRef = C52FC2D513A2029D00A2D359 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C52FC2D813A2029D00A2D359 /* parsekit.a */ = {
+		C52FC2D813A2029D00A2D359 /* libparsekit.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = parsekit.a;
+			path = libparsekit.a;
 			remoteRef = C52FC2D713A2029D00A2D359 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -2172,7 +2172,7 @@
 				INFOPLIST_FILE = res/conf/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = Talk.to;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -2206,7 +2206,7 @@
 				INFOPLIST_FILE = res/conf/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = Talk.to;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 				STRIP_STYLE = all;
 			};
 			name = Release;
